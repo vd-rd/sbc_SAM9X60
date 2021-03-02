@@ -757,6 +757,255 @@ DIN A4, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="parts-toshiba" urn="urn:adsk.eagle:library:27209271">
+<packages>
+<package name="BGA153C50P14X14_1300X1150X100N" urn="urn:adsk.eagle:footprint:27209282/2" library_version="4">
+<description>153-BGA, collapsing, 0.50 mm pitch, 13.00 X 11.50 X 1.00 mm body
+&lt;p&gt;153-pin collapsing BGA package with 0.50 mm col pitch and 0.50 mm row pitch with body size 13.00 X 11.50 X 1.00 mm&lt;/p&gt;
+&lt;p&gt;standard eMMC footprint&lt;/p&gt;</description>
+<circle x="-6.304" y="3.25" radius="0.25" width="0" layer="21"/>
+<wire x1="-5.8" y1="3.65" x2="-5.8" y2="6.55" width="0.12" layer="21"/>
+<wire x1="-5.8" y1="6.55" x2="-2.9" y2="6.55" width="0.12" layer="21"/>
+<wire x1="5.8" y1="3.65" x2="5.8" y2="6.55" width="0.12" layer="21"/>
+<wire x1="5.8" y1="6.55" x2="2.9" y2="6.55" width="0.12" layer="21"/>
+<wire x1="5.8" y1="-3.65" x2="5.8" y2="-6.55" width="0.12" layer="21"/>
+<wire x1="5.8" y1="-6.55" x2="2.9" y2="-6.55" width="0.12" layer="21"/>
+<wire x1="-5.8" y1="-3.65" x2="-5.8" y2="-6.55" width="0.12" layer="21"/>
+<wire x1="-5.8" y1="-6.55" x2="-2.9" y2="-6.55" width="0.12" layer="21"/>
+<wire x1="5.8" y1="-6.55" x2="-5.8" y2="-6.55" width="0.12" layer="51"/>
+<wire x1="-5.8" y1="-6.55" x2="-5.8" y2="6.55" width="0.12" layer="51"/>
+<wire x1="-5.8" y1="6.55" x2="5.8" y2="6.55" width="0.12" layer="51"/>
+<wire x1="5.8" y1="6.55" x2="5.8" y2="-6.55" width="0.12" layer="51"/>
+<smd name="A1" x="-3.25" y="3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="A2" x="-2.75" y="3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="A3" x="-2.25" y="3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="A4" x="-1.75" y="3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="A5" x="-1.25" y="3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="A6" x="-0.75" y="3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="A7" x="-0.25" y="3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="A8" x="0.25" y="3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="A9" x="0.75" y="3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="A10" x="1.25" y="3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="A11" x="1.75" y="3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="A12" x="2.25" y="3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="A13" x="2.75" y="3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="A14" x="3.25" y="3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="B1" x="-3.25" y="2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="B2" x="-2.75" y="2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="B3" x="-2.25" y="2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="B4" x="-1.75" y="2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="B5" x="-1.25" y="2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="B6" x="-0.75" y="2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="B7" x="-0.25" y="2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="B8" x="0.25" y="2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="B9" x="0.75" y="2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="B10" x="1.25" y="2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="B11" x="1.75" y="2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="B12" x="2.25" y="2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="B13" x="2.75" y="2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="B14" x="3.25" y="2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="C1" x="-3.25" y="2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="C2" x="-2.75" y="2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="C3" x="-2.25" y="2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="C4" x="-1.75" y="2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="C5" x="-1.25" y="2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="C6" x="-0.75" y="2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="C7" x="-0.25" y="2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="C8" x="0.25" y="2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="C9" x="0.75" y="2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="C10" x="1.25" y="2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="C11" x="1.75" y="2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="C12" x="2.25" y="2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="C13" x="2.75" y="2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="C14" x="3.25" y="2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="D1" x="-3.25" y="1.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="D2" x="-2.75" y="1.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="D3" x="-2.25" y="1.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="D4" x="-1.75" y="1.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="D12" x="2.25" y="1.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="D13" x="2.75" y="1.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="D14" x="3.25" y="1.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="E1" x="-3.25" y="1.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="E2" x="-2.75" y="1.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="E3" x="-2.25" y="1.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="E5" x="-1.25" y="1.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="E6" x="-0.75" y="1.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="E7" x="-0.25" y="1.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="E8" x="0.25" y="1.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="E9" x="0.75" y="1.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="E10" x="1.25" y="1.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="E12" x="2.25" y="1.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="E13" x="2.75" y="1.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="E14" x="3.25" y="1.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="F1" x="-3.25" y="0.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="F2" x="-2.75" y="0.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="F3" x="-2.25" y="0.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="F5" x="-1.25" y="0.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="F10" x="1.25" y="0.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="F12" x="2.25" y="0.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="F13" x="2.75" y="0.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="F14" x="3.25" y="0.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="G1" x="-3.25" y="0.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="G2" x="-2.75" y="0.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="G3" x="-2.25" y="0.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="G5" x="-1.25" y="0.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="G10" x="1.25" y="0.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="G12" x="2.25" y="0.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="G13" x="2.75" y="0.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="G14" x="3.25" y="0.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="H1" x="-3.25" y="-0.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="H2" x="-2.75" y="-0.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="H3" x="-2.25" y="-0.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="H5" x="-1.25" y="-0.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="H10" x="1.25" y="-0.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="H12" x="2.25" y="-0.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="H13" x="2.75" y="-0.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="H14" x="3.25" y="-0.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="J1" x="-3.25" y="-0.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="J2" x="-2.75" y="-0.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="J3" x="-2.25" y="-0.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="J5" x="-1.25" y="-0.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="J10" x="1.25" y="-0.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="J12" x="2.25" y="-0.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="J13" x="2.75" y="-0.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="J14" x="3.25" y="-0.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="K1" x="-3.25" y="-1.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="K2" x="-2.75" y="-1.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="K3" x="-2.25" y="-1.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="K5" x="-1.25" y="-1.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="K6" x="-0.75" y="-1.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="K7" x="-0.25" y="-1.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="K8" x="0.25" y="-1.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="K9" x="0.75" y="-1.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="K10" x="1.25" y="-1.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="K12" x="2.25" y="-1.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="K13" x="2.75" y="-1.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="K14" x="3.25" y="-1.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="L1" x="-3.25" y="-1.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="L2" x="-2.75" y="-1.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="L3" x="-2.25" y="-1.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="L12" x="2.25" y="-1.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="L13" x="2.75" y="-1.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="L14" x="3.25" y="-1.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="M1" x="-3.25" y="-2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="M2" x="-2.75" y="-2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="M3" x="-2.25" y="-2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="M4" x="-1.75" y="-2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="M5" x="-1.25" y="-2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="M6" x="-0.75" y="-2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="M7" x="-0.25" y="-2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="M8" x="0.25" y="-2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="M9" x="0.75" y="-2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="M10" x="1.25" y="-2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="M11" x="1.75" y="-2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="M12" x="2.25" y="-2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="M13" x="2.75" y="-2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="M14" x="3.25" y="-2.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="N1" x="-3.25" y="-2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="N2" x="-2.75" y="-2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="N3" x="-2.25" y="-2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="N4" x="-1.75" y="-2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="N5" x="-1.25" y="-2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="N6" x="-0.75" y="-2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="N7" x="-0.25" y="-2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="N8" x="0.25" y="-2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="N9" x="0.75" y="-2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="N10" x="1.25" y="-2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="N11" x="1.75" y="-2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="N12" x="2.25" y="-2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="N13" x="2.75" y="-2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="N14" x="3.25" y="-2.75" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="P1" x="-3.25" y="-3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="P2" x="-2.75" y="-3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="P3" x="-2.25" y="-3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="P4" x="-1.75" y="-3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="P5" x="-1.25" y="-3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="P6" x="-0.75" y="-3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="P7" x="-0.25" y="-3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="P8" x="0.25" y="-3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="P9" x="0.75" y="-3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="P10" x="1.25" y="-3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="P11" x="1.75" y="-3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="P12" x="2.25" y="-3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="P13" x="2.75" y="-3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<smd name="P14" x="3.25" y="-3.25" dx="0.25" dy="0.25" layer="1" roundness="100" thermals="no"/>
+<text x="0" y="7.185" size="0.8" layer="25" ratio="15" align="bottom-center">&gt;NAME</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="BGA196C50P14X14_1300X1150X100N" urn="urn:adsk.eagle:package:27209272/2" type="model" library_version="4">
+<description>153-BGA, collapsing, 0.50 mm pitch, 13.00 X 11.50 X 1.00 mm body
+&lt;p&gt;153-pin collapsing BGA package with 0.50 mm col pitch and 0.50 mm row pitch with body size 13.00 X 11.50 X 1.00 mm&lt;/p&gt;
+&lt;p&gt;standard eMMC footprint&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="BGA153C50P14X14_1300X1150X100N"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="EMMC" urn="urn:adsk.eagle:symbol:27209354/1" library_version="4">
+<pin name="DAT0" x="-7.62" y="10.16" length="short"/>
+<pin name="DAT1" x="-7.62" y="7.62" length="short"/>
+<pin name="DAT2" x="-7.62" y="5.08" length="short"/>
+<pin name="DAT3" x="-7.62" y="2.54" length="short"/>
+<pin name="DAT4" x="-7.62" y="0" length="short"/>
+<pin name="DAT5" x="-7.62" y="-2.54" length="short"/>
+<pin name="DAT6" x="-7.62" y="-5.08" length="short"/>
+<pin name="DAT7" x="-7.62" y="-7.62" length="short"/>
+<pin name="CLK" x="-7.62" y="15.24" length="short" function="clk"/>
+<pin name="DS" x="-7.62" y="17.78" length="short"/>
+<pin name="CMD" x="-7.62" y="20.32" length="short"/>
+<pin name="!RESET" x="-7.62" y="22.86" length="short"/>
+<pin name="VCC" x="-7.62" y="-12.7" length="short"/>
+<pin name="VCCQ" x="-7.62" y="-15.24" length="short"/>
+<pin name="VDDI" x="-7.62" y="-17.78" length="short"/>
+<pin name="VSS" x="-7.62" y="-20.32" length="short"/>
+<pin name="VSSQ" x="-7.62" y="-22.86" length="short"/>
+<wire x1="-5.08" y1="25.4" x2="5.08" y2="25.4" width="0.254" layer="94"/>
+<wire x1="5.08" y1="25.4" x2="5.08" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-25.4" x2="-5.08" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-25.4" x2="-5.08" y2="25.4" width="0.254" layer="94"/>
+<text x="-5.08" y="25.654" size="1.27" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-27.94" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="THGBMNG5D1LBAIL" urn="urn:adsk.eagle:component:27209436/1" prefix="U" uservalue="yes" library_version="4">
+<gates>
+<gate name="G$1" symbol="EMMC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BGA153C50P14X14_1300X1150X100N">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="K5"/>
+<connect gate="G$1" pin="CLK" pad="M6"/>
+<connect gate="G$1" pin="CMD" pad="M5"/>
+<connect gate="G$1" pin="DAT0" pad="A3"/>
+<connect gate="G$1" pin="DAT1" pad="A4"/>
+<connect gate="G$1" pin="DAT2" pad="A5"/>
+<connect gate="G$1" pin="DAT3" pad="B2"/>
+<connect gate="G$1" pin="DAT4" pad="B3"/>
+<connect gate="G$1" pin="DAT5" pad="B4"/>
+<connect gate="G$1" pin="DAT6" pad="B5"/>
+<connect gate="G$1" pin="DAT7" pad="B6"/>
+<connect gate="G$1" pin="DS" pad="H5"/>
+<connect gate="G$1" pin="VCC" pad="E6 F5 J10 K9"/>
+<connect gate="G$1" pin="VCCQ" pad="C6 M4 N4 P3 P5"/>
+<connect gate="G$1" pin="VDDI" pad="C2"/>
+<connect gate="G$1" pin="VSS" pad="A6 E7 G5 H10 J5 K8"/>
+<connect gate="G$1" pin="VSSQ" pad="C4 N2 N5 P4 P6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27209272/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -769,6 +1018,8 @@ DIN A4, landscape with location and doc. field</description>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="U1" library="parts-microchip" library_urn="urn:adsk.eagle:library:7686352" deviceset="SAM9X60-" device="D1G" package3d_urn="urn:adsk.eagle:package:27204692/2"/>
+<part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
+<part name="U2" library="parts-toshiba" library_urn="urn:adsk.eagle:library:27209271" deviceset="THGBMNG5D1LBAIL" device="" package3d_urn="urn:adsk.eagle:package:27209272/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -820,6 +1071,25 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="U1" gate="G$6" x="218.44" y="45.72" smashed="yes">
 <attribute name="NAME" x="200.66" y="73.66" size="1.778" layer="95"/>
 <attribute name="VALUE" x="218.44" y="73.66" size="1.778" layer="96"/>
+</instance>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+<sheet>
+<plain>
+</plain>
+<instances>
+<instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DRAWING_NAME" x="217.17" y="15.24" size="2.54" layer="94"/>
+<attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94"/>
+<attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94"/>
+</instance>
+<instance part="U2" gate="G$1" x="45.72" y="96.52" smashed="yes">
+<attribute name="NAME" x="40.64" y="122.174" size="1.27" layer="95"/>
+<attribute name="VALUE" x="40.64" y="68.58" size="1.27" layer="96"/>
 </instance>
 </instances>
 <busses>
