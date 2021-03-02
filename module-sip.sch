@@ -9199,6 +9199,9 @@ Source: AVX .. aphvc.pdf</description>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9516,10 +9519,143 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="NAME" x="200.66" y="73.66" size="1.778" layer="95"/>
 <attribute name="VALUE" x="218.44" y="73.66" size="1.778" layer="96"/>
 </instance>
+<instance part="GND1" gate="1" x="241.3" y="33.02" smashed="yes">
+<attribute name="VALUE" x="238.76" y="30.48" size="1.778" layer="96"/>
+</instance>
+<instance part="GND2" gate="1" x="190.5" y="33.02" smashed="yes">
+<attribute name="VALUE" x="187.96" y="30.48" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="GND" class="0">
+<segment>
+<pinref part="U1" gate="G$6" pin="GND"/>
+<wire x1="236.22" y1="40.64" x2="241.3" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="40.64" x2="241.3" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="U1" gate="G$6" pin="GNDANA"/>
+<wire x1="236.22" y1="45.72" x2="241.3" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="45.72" x2="241.3" y2="40.64" width="0.1524" layer="91"/>
+<junction x="241.3" y="40.64"/>
+<pinref part="U1" gate="G$6" pin="DDRM_VSS"/>
+<wire x1="236.22" y1="66.04" x2="241.3" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="66.04" x2="241.3" y2="45.72" width="0.1524" layer="91"/>
+<junction x="241.3" y="45.72"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$6" pin="GNDIN33"/>
+<wire x1="198.12" y1="40.64" x2="190.5" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="40.64" x2="190.5" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+</segment>
+</net>
+<net name="DDR_CAL" class="0">
+<segment>
+<pinref part="U1" gate="G$6" pin="DDR_CAL"/>
+<wire x1="236.22" y1="63.5" x2="254" y2="63.5" width="0.1524" layer="91"/>
+<label x="251.46" y="63.5" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="DDR_VREF" class="0">
+<segment>
+<pinref part="U1" gate="G$6" pin="DDR_VREF"/>
+<wire x1="236.22" y1="60.96" x2="254" y2="60.96" width="0.1524" layer="91"/>
+<label x="251.46" y="60.96" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="ADVREFP" class="0">
+<segment>
+<pinref part="U1" gate="G$6" pin="ADVREFP"/>
+<wire x1="236.22" y1="53.34" x2="254" y2="53.34" width="0.1524" layer="91"/>
+<label x="251.46" y="53.34" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="ADVREFN" class="0">
+<segment>
+<pinref part="U1" gate="G$6" pin="ADVREFN"/>
+<wire x1="236.22" y1="50.8" x2="254" y2="50.8" width="0.1524" layer="91"/>
+<label x="251.46" y="50.8" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="VDDIOM" class="0">
+<segment>
+<pinref part="U1" gate="G$6" pin="VDDIOM"/>
+<wire x1="198.12" y1="60.96" x2="180.34" y2="60.96" width="0.1524" layer="91"/>
+<label x="182.88" y="60.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VDDNF" class="0">
+<segment>
+<pinref part="U1" gate="G$6" pin="VDDNF"/>
+<wire x1="198.12" y1="63.5" x2="180.34" y2="63.5" width="0.1524" layer="91"/>
+<label x="182.88" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VDDIOP0" class="0">
+<segment>
+<pinref part="U1" gate="G$6" pin="VDDIOP0"/>
+<wire x1="198.12" y1="58.42" x2="180.34" y2="58.42" width="0.1524" layer="91"/>
+<label x="182.88" y="58.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VDDIOP1" class="0">
+<segment>
+<pinref part="U1" gate="G$6" pin="VDDIOP1"/>
+<wire x1="198.12" y1="55.88" x2="180.34" y2="55.88" width="0.1524" layer="91"/>
+<label x="182.88" y="55.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VDDBU" class="0">
+<segment>
+<pinref part="U1" gate="G$6" pin="VDDBU"/>
+<wire x1="198.12" y1="53.34" x2="180.34" y2="53.34" width="0.1524" layer="91"/>
+<label x="182.88" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VDDANA" class="0">
+<segment>
+<pinref part="U1" gate="G$6" pin="VDDANA"/>
+<wire x1="236.22" y1="48.26" x2="254" y2="48.26" width="0.1524" layer="91"/>
+<label x="251.46" y="48.26" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="VDDOUT25" class="0">
+<segment>
+<pinref part="U1" gate="G$6" pin="VDDOUT25"/>
+<wire x1="198.12" y1="48.26" x2="180.34" y2="48.26" width="0.1524" layer="91"/>
+<label x="182.88" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VDDIN33" class="0">
+<segment>
+<pinref part="U1" gate="G$6" pin="VDDIN33"/>
+<wire x1="198.12" y1="43.18" x2="180.34" y2="43.18" width="0.1524" layer="91"/>
+<label x="182.88" y="43.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VDDCORE" class="0">
+<segment>
+<pinref part="U1" gate="G$6" pin="VDDCORE"/>
+<wire x1="198.12" y1="68.58" x2="180.34" y2="68.58" width="0.1524" layer="91"/>
+<label x="182.88" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VDDQSPI" class="0">
+<segment>
+<pinref part="U1" gate="G$6" pin="VDDQSPI"/>
+<wire x1="198.12" y1="66.04" x2="180.34" y2="66.04" width="0.1524" layer="91"/>
+<label x="182.88" y="66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DDRM_VDD" class="0">
+<segment>
+<pinref part="U1" gate="G$6" pin="DDRM_VDD"/>
+<wire x1="236.22" y1="68.58" x2="254" y2="68.58" width="0.1524" layer="91"/>
+<label x="251.46" y="68.58" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -9535,10 +9671,25 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="NAME" x="40.64" y="122.174" size="1.27" layer="95"/>
 <attribute name="VALUE" x="40.64" y="68.58" size="1.27" layer="96"/>
 </instance>
+<instance part="GND3" gate="1" x="33.02" y="66.04" smashed="yes">
+<attribute name="VALUE" x="30.48" y="63.5" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="GND" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="VSSQ"/>
+<wire x1="38.1" y1="73.66" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="VSS"/>
+<wire x1="33.02" y1="73.66" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="76.2" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="73.66" x2="33.02" y2="68.58" width="0.1524" layer="91"/>
+<junction x="33.02" y="73.66"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -9559,6 +9710,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.0" severity="warning">
+Since Version 9.0, EAGLE supports the align property for labels. 
+Labels in schematic will not be understood with this version. Update EAGLE to the latest version 
+for full support of labels. 
 </note>
 </compatibility>
 </eagle>
