@@ -2287,21 +2287,21 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94"/>
 </instance>
-<instance part="U1" gate="B" x="88.9" y="147.32" smashed="yes">
-<attribute name="NAME" x="104.4956" y="156.4386" size="2.0828" layer="95" ratio="6" rot="SR0"/>
-<attribute name="VALUE" x="103.8606" y="153.8986" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+<instance part="U1" gate="B" x="27.94" y="160.02" smashed="yes">
+<attribute name="NAME" x="43.5356" y="169.1386" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="42.9006" y="166.5986" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="U1" gate="C" x="149.86" y="160.02" smashed="yes">
-<attribute name="NAME" x="165.4556" y="169.1386" size="2.0828" layer="95" ratio="6" rot="SR0"/>
-<attribute name="VALUE" x="164.8206" y="166.5986" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+<instance part="U1" gate="C" x="93.98" y="162.56" smashed="yes">
+<attribute name="NAME" x="109.5756" y="171.6786" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="108.9406" y="169.1386" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="U1" gate="D" x="198.12" y="154.94" smashed="yes">
-<attribute name="NAME" x="213.7156" y="164.0586" size="2.0828" layer="95" ratio="6" rot="SR0"/>
-<attribute name="VALUE" x="213.0806" y="161.5186" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+<instance part="U1" gate="D" x="165.1" y="160.02" smashed="yes">
+<attribute name="NAME" x="180.6956" y="169.1386" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="180.0606" y="166.5986" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="U1" gate="E" x="241.3" y="147.32" smashed="yes">
-<attribute name="NAME" x="256.8956" y="156.4386" size="2.0828" layer="95" ratio="6" rot="SR0"/>
-<attribute name="VALUE" x="256.2606" y="153.8986" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+<instance part="U1" gate="E" x="220.98" y="154.94" smashed="yes">
+<attribute name="NAME" x="236.5756" y="164.0586" size="2.0828" layer="95" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="235.9406" y="161.5186" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
 </instances>
 <busses>
