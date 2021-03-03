@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -14918,71 +14918,87 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <wire x1="60.96" y1="162.56" x2="60.96" y2="167.64" width="0.1524" layer="91"/>
 <junction x="60.96" y="167.64"/>
 </segment>
+<segment>
+<pinref part="SV2" gate="1" pin="12"/>
+<wire x1="220.98" y1="154.94" x2="210.82" y2="154.94" width="0.1524" layer="91"/>
+<label x="208.28" y="154.94" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="E0_RX0" class="0">
 <segment>
-<wire x1="203.2" y1="165.1" x2="190.5" y2="165.1" width="0.1524" layer="91"/>
-<label x="187.96" y="165.1" size="1.778" layer="95"/>
+<wire x1="220.98" y1="149.86" x2="210.82" y2="149.86" width="0.1524" layer="91"/>
+<label x="208.28" y="149.86" size="1.778" layer="95"/>
+<pinref part="SV2" gate="1" pin="8"/>
 </segment>
 </net>
 <net name="E0_RX1" class="0">
 <segment>
-<wire x1="203.2" y1="162.56" x2="190.5" y2="162.56" width="0.1524" layer="91"/>
-<label x="187.96" y="162.56" size="1.778" layer="95"/>
+<wire x1="243.84" y1="149.86" x2="236.22" y2="149.86" width="0.1524" layer="91"/>
+<label x="241.3" y="149.86" size="1.778" layer="95"/>
+<pinref part="SV2" gate="1" pin="7"/>
 </segment>
 </net>
 <net name="E0_RXER" class="0">
 <segment>
-<wire x1="203.2" y1="160.02" x2="190.5" y2="160.02" width="0.1524" layer="91"/>
-<label x="187.96" y="160.02" size="1.778" layer="95"/>
+<wire x1="243.84" y1="147.32" x2="236.22" y2="147.32" width="0.1524" layer="91"/>
+<label x="241.3" y="147.32" size="1.778" layer="95"/>
+<pinref part="SV2" gate="1" pin="5"/>
 </segment>
 </net>
 <net name="E0_RXDV" class="0">
 <segment>
-<wire x1="203.2" y1="157.48" x2="190.5" y2="157.48" width="0.1524" layer="91"/>
-<label x="187.96" y="157.48" size="1.778" layer="95"/>
+<wire x1="248.92" y1="142.24" x2="236.22" y2="142.24" width="0.1524" layer="91"/>
+<label x="241.3" y="142.24" size="1.778" layer="95"/>
+<pinref part="SV2" gate="1" pin="1"/>
 </segment>
 </net>
 <net name="E0_TXCK" class="0">
 <segment>
-<wire x1="203.2" y1="154.94" x2="190.5" y2="154.94" width="0.1524" layer="91"/>
-<label x="187.96" y="154.94" size="1.778" layer="95"/>
+<wire x1="220.98" y1="147.32" x2="210.82" y2="147.32" width="0.1524" layer="91"/>
+<label x="208.28" y="147.32" size="1.778" layer="95"/>
+<pinref part="SV2" gate="1" pin="6"/>
 </segment>
 </net>
 <net name="E0_MDIO" class="0">
 <segment>
-<wire x1="203.2" y1="152.4" x2="190.5" y2="152.4" width="0.1524" layer="91"/>
-<label x="187.96" y="152.4" size="1.778" layer="95"/>
+<wire x1="220.98" y1="144.78" x2="210.82" y2="144.78" width="0.1524" layer="91"/>
+<label x="208.28" y="144.78" size="1.778" layer="95"/>
+<pinref part="SV2" gate="1" pin="4"/>
 </segment>
 </net>
 <net name="E0_MDC" class="0">
 <segment>
-<wire x1="203.2" y1="149.86" x2="190.5" y2="149.86" width="0.1524" layer="91"/>
-<label x="187.96" y="149.86" size="1.778" layer="95"/>
+<wire x1="243.84" y1="144.78" x2="236.22" y2="144.78" width="0.1524" layer="91"/>
+<label x="241.3" y="144.78" size="1.778" layer="95"/>
+<pinref part="SV2" gate="1" pin="3"/>
 </segment>
 </net>
 <net name="E0_TXEN" class="0">
 <segment>
-<wire x1="203.2" y1="147.32" x2="190.5" y2="147.32" width="0.1524" layer="91"/>
-<label x="187.96" y="147.32" size="1.778" layer="95"/>
+<wire x1="220.98" y1="142.24" x2="210.82" y2="142.24" width="0.1524" layer="91"/>
+<label x="208.28" y="142.24" size="1.778" layer="95"/>
+<pinref part="SV2" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="E0_IRQ" class="0">
 <segment>
-<wire x1="203.2" y1="144.78" x2="190.5" y2="144.78" width="0.1524" layer="91"/>
-<label x="187.96" y="144.78" size="1.778" layer="95"/>
+<wire x1="243.84" y1="154.94" x2="236.22" y2="154.94" width="0.1524" layer="91"/>
+<label x="241.3" y="154.94" size="1.778" layer="95"/>
+<pinref part="SV2" gate="1" pin="11"/>
 </segment>
 </net>
 <net name="E0_TX0" class="0">
 <segment>
-<wire x1="203.2" y1="142.24" x2="190.5" y2="142.24" width="0.1524" layer="91"/>
-<label x="187.96" y="142.24" size="1.778" layer="95"/>
+<wire x1="220.98" y1="152.4" x2="210.82" y2="152.4" width="0.1524" layer="91"/>
+<label x="208.28" y="152.4" size="1.778" layer="95"/>
+<pinref part="SV2" gate="1" pin="10"/>
 </segment>
 </net>
 <net name="E0_TX1" class="0">
 <segment>
-<wire x1="203.2" y1="139.7" x2="190.5" y2="139.7" width="0.1524" layer="91"/>
-<label x="187.96" y="139.7" size="1.778" layer="95"/>
+<wire x1="243.84" y1="152.4" x2="236.22" y2="152.4" width="0.1524" layer="91"/>
+<label x="241.3" y="152.4" size="1.778" layer="95"/>
+<pinref part="SV2" gate="1" pin="9"/>
 </segment>
 </net>
 </nets>
