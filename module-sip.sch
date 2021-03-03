@@ -13843,6 +13843,8 @@ Source: RS Component / Phycomp</description>
 <part name="C38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF"/>
 <part name="C39" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="2.2uF"/>
 <part name="C40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="4.7uF"/>
+<part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15993,6 +15995,12 @@ Source: RS Component / Phycomp</description>
 <attribute name="NAME" x="210.312" y="117.0686" size="1.778" layer="95"/>
 <attribute name="VALUE" x="221.996" y="117.094" size="1.778" layer="96"/>
 </instance>
+<instance part="GND28" gate="1" x="127" y="144.78" smashed="yes">
+<attribute name="VALUE" x="124.46" y="142.24" size="1.778" layer="96"/>
+</instance>
+<instance part="GND29" gate="1" x="157.48" y="144.78" smashed="yes">
+<attribute name="VALUE" x="154.94" y="142.24" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -16003,12 +16011,22 @@ Source: RS Component / Phycomp</description>
 <wire x1="17.78" y1="167.64" x2="30.48" y2="167.64" width="0.1524" layer="91"/>
 <label x="22.86" y="167.64" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="CON2" gate="G$1" pin="DP"/>
+<wire x1="154.94" y1="157.48" x2="175.26" y2="157.48" width="0.1524" layer="91"/>
+<label x="167.64" y="157.48" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="USBA_N" class="0">
 <segment>
 <pinref part="TP2" gate="G$1" pin="TP"/>
 <wire x1="17.78" y1="162.56" x2="30.48" y2="162.56" width="0.1524" layer="91"/>
 <label x="22.86" y="162.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CON2" gate="G$1" pin="DM"/>
+<wire x1="154.94" y1="160.02" x2="175.26" y2="160.02" width="0.1524" layer="91"/>
+<label x="167.64" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USBB_P" class="0">
@@ -16068,6 +16086,18 @@ Source: RS Component / Phycomp</description>
 <pinref part="SV2" gate="1" pin="12"/>
 <wire x1="220.98" y1="154.94" x2="210.82" y2="154.94" width="0.1524" layer="91"/>
 <label x="208.28" y="154.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CON2" gate="G$1" pin="GND@4"/>
+<wire x1="129.54" y1="152.4" x2="127" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="127" y1="152.4" x2="127" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="GND28" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="CON2" gate="G$1" pin="GND@5"/>
+<wire x1="154.94" y1="152.4" x2="157.48" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="152.4" x2="157.48" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="GND29" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="E0_RX0" class="0">
