@@ -10581,7 +10581,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </library>
 <library name="parts-attend" urn="urn:adsk.eagle:library:7445056">
 <packages>
-<package name="112J" urn="urn:adsk.eagle:footprint:7566115/2" library_version="13">
+<package name="112J" urn="urn:adsk.eagle:footprint:7566115/3" library_version="14">
 <smd name="P$1" x="2.25" y="0" dx="1.6" dy="0.7" layer="1" rot="R90"/>
 <smd name="P$2" x="1.15" y="0" dx="1.6" dy="0.7" layer="1" rot="R90"/>
 <smd name="P$3" x="0.05" y="0" dx="1.6" dy="0.7" layer="1" rot="R90"/>
@@ -10595,7 +10595,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <smd name="GND3" x="7.75" y="-10.1" dx="2.2" dy="1.2" layer="1" rot="R90"/>
 <smd name="GND4" x="6.85" y="-0.5" dx="1.6" dy="1.4" layer="1" rot="R180"/>
 <smd name="P$13" x="-6.55" y="0" dx="1.6" dy="0.7" layer="1" rot="R90"/>
-<hole x="-4.4" y="-10.5" drill="1"/>
+<hole x="-4.95" y="-10.5" drill="1"/>
 <hole x="3.05" y="-10.5" drill="1"/>
 <wire x1="-7.35" y1="0" x2="7.35" y2="0" width="0.1" layer="51"/>
 <wire x1="-7.35" y1="0" x2="-7.35" y2="-14.5" width="0.1" layer="51"/>
@@ -10616,7 +10616,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </package>
 </packages>
 <packages3d>
-<package3d name="112J" urn="urn:adsk.eagle:package:7566117/4" type="model" library_version="13">
+<package3d name="112J" urn="urn:adsk.eagle:package:7566117/5" type="model" library_version="14">
 <packageinstances>
 <packageinstance name="112J"/>
 </packageinstances>
@@ -10645,7 +10645,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="112J-TXAR" urn="urn:adsk.eagle:component:7566118/4" prefix="CON" uservalue="yes" library_version="13">
+<deviceset name="112J-TXAR" urn="urn:adsk.eagle:component:7566118/5" prefix="CON" uservalue="yes" library_version="14">
 <gates>
 <gate name="G$1" symbol="SD-MMC" x="-5.08" y="-2.54"/>
 </gates>
@@ -10664,7 +10664,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <connect gate="G$1" pin="VSS@6" pad="P$6"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7566117/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7566117/5"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -12963,13 +12963,15 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <part name="TP7" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="TP8" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="47k"/>
-<part name="CON1" library="parts-attend" library_urn="urn:adsk.eagle:library:7445056" deviceset="112J-TXAR" device="" package3d_urn="urn:adsk.eagle:package:7566117/4"/>
+<part name="CON1" library="parts-attend" library_urn="urn:adsk.eagle:library:7445056" deviceset="112J-TXAR" device="" package3d_urn="urn:adsk.eagle:package:7566117/5"/>
 <part name="SV1" library="parts-passives" library_urn="urn:adsk.eagle:library:8154151" deviceset="MA18-2" device="" package3d_urn="urn:adsk.eagle:package:10613619/3"/>
 <part name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-2" device="" package3d_urn="urn:adsk.eagle:package:8342/1"/>
 <part name="SV3" library="parts-passives" library_urn="urn:adsk.eagle:library:8154151" deviceset="MA05-1" device="" package3d_urn="urn:adsk.eagle:package:10613630/2"/>
 <part name="CON2" library="parts-amphenol" library_urn="urn:adsk.eagle:library:7627682" deviceset="10118194-00" device="01LF" package3d_urn="urn:adsk.eagle:package:7627706/3"/>
 <part name="LED1" library="parts-optosupply" library_urn="urn:adsk.eagle:library:7630749" deviceset="OSTB" device="1204C1E" package3d_urn="urn:adsk.eagle:package:7630752/2"/>
 <part name="J1" library="con-omron" library_urn="urn:adsk.eagle:library:167" deviceset="XF2*-30?" device="35-1" package3d_urn="urn:adsk.eagle:package:9087/1" technology="L"/>
+<part name="TP9" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
+<part name="TP10" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -14528,9 +14530,9 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <instance part="GND3" gate="1" x="33.02" y="66.04" smashed="yes">
 <attribute name="VALUE" x="30.48" y="63.5" size="1.778" layer="96"/>
 </instance>
-<instance part="CON1" gate="G$1" x="30.48" y="35.56" smashed="yes" rot="R180">
-<attribute name="NAME" x="38.1" y="15.24" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="38.1" y="17.78" size="1.778" layer="96" rot="R180"/>
+<instance part="CON1" gate="G$1" x="205.74" y="152.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="213.36" y="132.08" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="213.36" y="134.62" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -14636,51 +14638,51 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 </net>
 <net name="SDMMC1_DAT1" class="0">
 <segment>
-<wire x1="60.96" y1="38.1" x2="43.18" y2="38.1" width="0.1524" layer="91"/>
-<label x="55.88" y="38.1" size="1.778" layer="95"/>
+<wire x1="236.22" y1="154.94" x2="218.44" y2="154.94" width="0.1524" layer="91"/>
+<label x="231.14" y="154.94" size="1.778" layer="95"/>
 <pinref part="CON1" gate="G$1" pin="DAT1@8"/>
 </segment>
 </net>
 <net name="SDMMC1_DAT2" class="0">
 <segment>
-<wire x1="60.96" y1="20.32" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
-<label x="55.88" y="20.32" size="1.778" layer="95"/>
+<wire x1="236.22" y1="137.16" x2="218.44" y2="137.16" width="0.1524" layer="91"/>
+<label x="231.14" y="137.16" size="1.778" layer="95"/>
 <pinref part="CON1" gate="G$1" pin="DAT2@1"/>
 </segment>
 </net>
 <net name="SDMMC1_DAT3" class="0">
 <segment>
-<wire x1="60.96" y1="22.86" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
-<label x="55.88" y="22.86" size="1.778" layer="95"/>
+<wire x1="236.22" y1="139.7" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
+<label x="231.14" y="139.7" size="1.778" layer="95"/>
 <pinref part="CON1" gate="G$1" pin="CD/DAT3@2"/>
 </segment>
 </net>
 <net name="SDMMC1_DAT0" class="0">
 <segment>
-<wire x1="60.96" y1="35.56" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
-<label x="55.88" y="35.56" size="1.778" layer="95"/>
+<wire x1="236.22" y1="152.4" x2="218.44" y2="152.4" width="0.1524" layer="91"/>
+<label x="231.14" y="152.4" size="1.778" layer="95"/>
 <pinref part="CON1" gate="G$1" pin="DAT0@7"/>
 </segment>
 </net>
 <net name="SDMMC1_CMD" class="0">
 <segment>
-<wire x1="60.96" y1="25.4" x2="43.18" y2="25.4" width="0.1524" layer="91"/>
-<label x="55.88" y="25.4" size="1.778" layer="95"/>
+<wire x1="236.22" y1="142.24" x2="218.44" y2="142.24" width="0.1524" layer="91"/>
+<label x="231.14" y="142.24" size="1.778" layer="95"/>
 <pinref part="CON1" gate="G$1" pin="CMD@3"/>
 </segment>
 </net>
 <net name="SDMMC1_CK" class="0">
 <segment>
-<wire x1="60.96" y1="30.48" x2="43.18" y2="30.48" width="0.1524" layer="91"/>
-<label x="55.88" y="30.48" size="1.778" layer="95"/>
+<wire x1="236.22" y1="147.32" x2="218.44" y2="147.32" width="0.1524" layer="91"/>
+<label x="231.14" y="147.32" size="1.778" layer="95"/>
 <pinref part="CON1" gate="G$1" pin="CLK@5"/>
 </segment>
 </net>
 <net name="SDMMC1_DET" class="0">
 <segment>
 <pinref part="CON1" gate="G$1" pin="CD@9"/>
-<wire x1="43.18" y1="43.18" x2="60.96" y2="43.18" width="0.1524" layer="91"/>
-<label x="55.88" y="43.18" size="1.778" layer="95"/>
+<wire x1="218.44" y1="160.02" x2="236.22" y2="160.02" width="0.1524" layer="91"/>
+<label x="231.14" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -14730,9 +14732,9 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <attribute name="VALUE" x="21.59" y="20.32" size="1.778" layer="96"/>
 <attribute name="NAME" x="21.59" y="71.882" size="1.778" layer="95"/>
 </instance>
-<instance part="SV2" gate="1" x="25.4" y="101.6" smashed="yes">
-<attribute name="VALUE" x="21.59" y="88.9" size="1.778" layer="96"/>
-<attribute name="NAME" x="21.59" y="109.982" size="1.778" layer="95"/>
+<instance part="SV2" gate="1" x="228.6" y="149.86" smashed="yes">
+<attribute name="VALUE" x="224.79" y="137.16" size="1.778" layer="96"/>
+<attribute name="NAME" x="224.79" y="158.242" size="1.778" layer="95"/>
 </instance>
 <instance part="SV3" gate="G$1" x="22.86" y="12.7" smashed="yes">
 <attribute name="VALUE" x="21.59" y="2.54" size="1.778" layer="96"/>
@@ -14837,6 +14839,14 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <instance part="J1" gate="-30" x="231.14" y="30.48" smashed="yes">
 <attribute name="NAME" x="233.68" y="29.718" size="1.524" layer="95"/>
 </instance>
+<instance part="TP9" gate="G$1" x="55.88" y="167.64" smashed="yes" rot="R270">
+<attribute name="NAME" x="49.53" y="168.656" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="53.34" y="166.37" size="1.778" layer="97" rot="R270"/>
+</instance>
+<instance part="TP10" gate="G$1" x="55.88" y="162.56" smashed="yes" rot="R270">
+<attribute name="NAME" x="49.53" y="163.576" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="53.34" y="161.29" size="1.778" layer="97" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14895,6 +14905,84 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <pinref part="TP8" gate="G$1" pin="TP"/>
 <wire x1="17.78" y1="124.46" x2="30.48" y2="124.46" width="0.1524" layer="91"/>
 <label x="22.86" y="124.46" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="TP9" gate="G$1" pin="TP"/>
+<wire x1="58.42" y1="167.64" x2="60.96" y2="167.64" width="0.1524" layer="91"/>
+<label x="68.58" y="167.64" size="1.778" layer="95"/>
+<pinref part="TP10" gate="G$1" pin="TP"/>
+<wire x1="60.96" y1="167.64" x2="76.2" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="162.56" x2="60.96" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="162.56" x2="60.96" y2="167.64" width="0.1524" layer="91"/>
+<junction x="60.96" y="167.64"/>
+</segment>
+</net>
+<net name="E0_RX0" class="0">
+<segment>
+<wire x1="203.2" y1="165.1" x2="190.5" y2="165.1" width="0.1524" layer="91"/>
+<label x="187.96" y="165.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="E0_RX1" class="0">
+<segment>
+<wire x1="203.2" y1="162.56" x2="190.5" y2="162.56" width="0.1524" layer="91"/>
+<label x="187.96" y="162.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="E0_RXER" class="0">
+<segment>
+<wire x1="203.2" y1="160.02" x2="190.5" y2="160.02" width="0.1524" layer="91"/>
+<label x="187.96" y="160.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="E0_RXDV" class="0">
+<segment>
+<wire x1="203.2" y1="157.48" x2="190.5" y2="157.48" width="0.1524" layer="91"/>
+<label x="187.96" y="157.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="E0_TXCK" class="0">
+<segment>
+<wire x1="203.2" y1="154.94" x2="190.5" y2="154.94" width="0.1524" layer="91"/>
+<label x="187.96" y="154.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="E0_MDIO" class="0">
+<segment>
+<wire x1="203.2" y1="152.4" x2="190.5" y2="152.4" width="0.1524" layer="91"/>
+<label x="187.96" y="152.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="E0_MDC" class="0">
+<segment>
+<wire x1="203.2" y1="149.86" x2="190.5" y2="149.86" width="0.1524" layer="91"/>
+<label x="187.96" y="149.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="E0_TXEN" class="0">
+<segment>
+<wire x1="203.2" y1="147.32" x2="190.5" y2="147.32" width="0.1524" layer="91"/>
+<label x="187.96" y="147.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="E0_IRQ" class="0">
+<segment>
+<wire x1="203.2" y1="144.78" x2="190.5" y2="144.78" width="0.1524" layer="91"/>
+<label x="187.96" y="144.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="E0_TX0" class="0">
+<segment>
+<wire x1="203.2" y1="142.24" x2="190.5" y2="142.24" width="0.1524" layer="91"/>
+<label x="187.96" y="142.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="E0_TX1" class="0">
+<segment>
+<wire x1="203.2" y1="139.7" x2="190.5" y2="139.7" width="0.1524" layer="91"/>
+<label x="187.96" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
