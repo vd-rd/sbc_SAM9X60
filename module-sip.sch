@@ -12972,6 +12972,9 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <part name="J1" library="con-omron" library_urn="urn:adsk.eagle:library:167" deviceset="XF2*-30?" device="35-1" package3d_urn="urn:adsk.eagle:package:9087/1" technology="L"/>
 <part name="TP9" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="TP10" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="180"/>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="180"/>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="180"/>
 </parts>
 <sheets>
 <sheet>
@@ -14744,9 +14747,9 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <attribute name="NAME" x="133.35" y="165.1" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="143.51" y="165.1" size="1.27" layer="95" ratio="10"/>
 </instance>
-<instance part="LED1" gate="G$1" x="233.68" y="116.84" smashed="yes">
-<attribute name="NAME" x="231.14" y="120.142" size="1.778" layer="95"/>
-<attribute name="VALUE" x="231.14" y="122.301" size="1.778" layer="96"/>
+<instance part="LED1" gate="G$1" x="233.68" y="121.92" smashed="yes" rot="R270">
+<attribute name="NAME" x="236.982" y="124.46" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="239.141" y="124.46" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="J1" gate="-1" x="231.14" y="104.14" smashed="yes">
 <attribute name="VALUE" x="231.14" y="105.41" size="1.778" layer="96"/>
@@ -14846,6 +14849,18 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <instance part="TP10" gate="G$1" x="55.88" y="162.56" smashed="yes" rot="R270">
 <attribute name="NAME" x="49.53" y="163.576" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="53.34" y="161.29" size="1.778" layer="97" rot="R270"/>
+</instance>
+<instance part="R9" gate="G$1" x="218.44" y="127" smashed="yes">
+<attribute name="NAME" x="210.312" y="127.2286" size="1.778" layer="95"/>
+<attribute name="VALUE" x="221.996" y="127.254" size="1.778" layer="96"/>
+</instance>
+<instance part="R10" gate="G$1" x="218.44" y="121.92" smashed="yes">
+<attribute name="NAME" x="210.312" y="122.1486" size="1.778" layer="95"/>
+<attribute name="VALUE" x="221.996" y="122.174" size="1.778" layer="96"/>
+</instance>
+<instance part="R11" gate="G$1" x="218.44" y="116.84" smashed="yes">
+<attribute name="NAME" x="210.312" y="117.0686" size="1.778" layer="95"/>
+<attribute name="VALUE" x="221.996" y="117.094" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -14999,6 +15014,55 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <wire x1="243.84" y1="152.4" x2="236.22" y2="152.4" width="0.1524" layer="91"/>
 <label x="241.3" y="152.4" size="1.778" layer="95"/>
 <pinref part="SV2" gate="1" pin="9"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="LED1" gate="G$1" pin="AR"/>
+<wire x1="231.14" y1="127" x2="223.52" y2="127" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="LED1" gate="G$1" pin="AG"/>
+<wire x1="231.14" y1="121.92" x2="223.52" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="LED1" gate="G$1" pin="AB"/>
+<wire x1="231.14" y1="116.84" x2="223.52" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="+3V3" class="0">
+<segment>
+<pinref part="LED1" gate="G$1" pin="CC"/>
+<wire x1="238.76" y1="127" x2="246.38" y2="127" width="0.1524" layer="91"/>
+<label x="243.84" y="127" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LED_RED" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="213.36" y1="127" x2="198.12" y2="127" width="0.1524" layer="91"/>
+<label x="193.04" y="127" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LED_GREEN" class="0">
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="213.36" y1="121.92" x2="198.12" y2="121.92" width="0.1524" layer="91"/>
+<label x="193.04" y="121.92" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LED_BLUE" class="0">
+<segment>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="213.36" y1="116.84" x2="198.12" y2="116.84" width="0.1524" layer="91"/>
+<label x="193.04" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
