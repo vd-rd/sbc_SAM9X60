@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -13715,6 +13715,8 @@ Source: RS Component / Phycomp</description>
 <attributes>
 </attributes>
 <variantdefs>
+<variantdef name="micro-sd"/>
+<variantdef name="no-micro-sd"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -13813,7 +13815,9 @@ Source: RS Component / Phycomp</description>
 <part name="TP7" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="TP8" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="47k"/>
-<part name="CON1" library="parts-attend" library_urn="urn:adsk.eagle:library:7445056" deviceset="112J-TXAR" device="" package3d_urn="urn:adsk.eagle:package:7566117/5"/>
+<part name="CON1" library="parts-attend" library_urn="urn:adsk.eagle:library:7445056" deviceset="112J-TXAR" device="" package3d_urn="urn:adsk.eagle:package:7566117/5">
+<variant name="no-micro-sd" populate="no"/>
+</part>
 <part name="SV1" library="parts-passives" library_urn="urn:adsk.eagle:library:8154151" deviceset="MA18-2" device="" package3d_urn="urn:adsk.eagle:package:10613619/3"/>
 <part name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA06-2" device="" package3d_urn="urn:adsk.eagle:package:8342/1"/>
 <part name="SV3" library="parts-passives" library_urn="urn:adsk.eagle:library:8154151" deviceset="MA05-1" device="" package3d_urn="urn:adsk.eagle:package:10613630/2"/>
@@ -13828,21 +13832,35 @@ Source: RS Component / Phycomp</description>
 <part name="RN1" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0402ARV341" package3d_urn="urn:adsk.eagle:package:24920/1" value="10k"/>
 <part name="RN2" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0402ARV341" package3d_urn="urn:adsk.eagle:package:24920/1" value="10k"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF"/>
-<part name="C27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF"/>
+<part name="C26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF">
+<variant name="no-micro-sd" populate="no"/>
+</part>
+<part name="C27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF">
+<variant name="no-micro-sd" populate="no"/>
+</part>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U2" library="parts-samsung" library_urn="urn:adsk.eagle:library:27242950" deviceset="KLMXGXGE4A-A001" device="" package3d_urn="urn:adsk.eagle:package:27242969/2"/>
-<part name="U5" library="parts-samsung" library_urn="urn:adsk.eagle:library:27242950" deviceset="KLMXGXGE4A-A001" device="" package3d_urn="urn:adsk.eagle:package:27242969/2"/>
+<part name="U500" library="parts-samsung" library_urn="urn:adsk.eagle:library:27242950" deviceset="KLMXGXGE4A-A001" device="" package3d_urn="urn:adsk.eagle:package:27242969/2">
+<variant name="micro-sd" populate="no"/>
+</part>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="27"/>
-<part name="C30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF"/>
+<part name="C503" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF">
+<variant name="micro-sd" populate="no"/>
+</part>
 <part name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF"/>
 <part name="C32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF"/>
 <part name="C36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="2.2uF"/>
 <part name="C37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="4.7uF"/>
-<part name="C38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF"/>
-<part name="C39" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="2.2uF"/>
-<part name="C40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="4.7uF"/>
+<part name="C500" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF">
+<variant name="micro-sd" populate="no"/>
+</part>
+<part name="C501" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="2.2uF">
+<variant name="micro-sd" populate="no"/>
+</part>
+<part name="C502" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="4.7uF">
+<variant name="micro-sd" populate="no"/>
+</part>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
@@ -15453,7 +15471,7 @@ Source: RS Component / Phycomp</description>
 <attribute name="NAME" x="144.78" y="112.014" size="1.27" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="144.78" y="58.42" size="1.27" layer="96" rot="MR0"/>
 </instance>
-<instance part="U5" gate="G$1" x="106.68" y="144.78" smashed="yes">
+<instance part="U500" gate="G$1" x="106.68" y="144.78" smashed="yes">
 <attribute name="NAME" x="101.6" y="170.434" size="1.27" layer="95"/>
 <attribute name="VALUE" x="101.6" y="116.84" size="1.27" layer="96"/>
 </instance>
@@ -15464,7 +15482,7 @@ Source: RS Component / Phycomp</description>
 <attribute name="NAME" x="181.864" y="139.9286" size="1.778" layer="95"/>
 <attribute name="VALUE" x="194.564" y="139.954" size="1.778" layer="96"/>
 </instance>
-<instance part="C30" gate="G$1" x="83.82" y="124.46" smashed="yes">
+<instance part="C503" gate="G$1" x="83.82" y="124.46" smashed="yes">
 <attribute name="NAME" x="85.344" y="124.841" size="1.778" layer="95"/>
 <attribute name="VALUE" x="85.344" y="119.761" size="1.778" layer="96"/>
 </instance>
@@ -15484,15 +15502,15 @@ Source: RS Component / Phycomp</description>
 <attribute name="NAME" x="186.944" y="63.881" size="1.778" layer="95"/>
 <attribute name="VALUE" x="186.944" y="58.801" size="1.778" layer="96"/>
 </instance>
-<instance part="C38" gate="G$1" x="60.96" y="124.46" smashed="yes">
+<instance part="C500" gate="G$1" x="60.96" y="124.46" smashed="yes">
 <attribute name="NAME" x="62.484" y="124.841" size="1.778" layer="95"/>
 <attribute name="VALUE" x="62.484" y="119.761" size="1.778" layer="96"/>
 </instance>
-<instance part="C39" gate="G$1" x="68.58" y="124.46" smashed="yes">
+<instance part="C501" gate="G$1" x="68.58" y="124.46" smashed="yes">
 <attribute name="NAME" x="70.104" y="124.841" size="1.778" layer="95"/>
 <attribute name="VALUE" x="70.104" y="119.761" size="1.778" layer="96"/>
 </instance>
-<instance part="C40" gate="G$1" x="76.2" y="124.46" smashed="yes">
+<instance part="C502" gate="G$1" x="76.2" y="124.46" smashed="yes">
 <attribute name="NAME" x="77.724" y="124.841" size="1.778" layer="95"/>
 <attribute name="VALUE" x="77.724" y="119.761" size="1.778" layer="96"/>
 </instance>
@@ -15538,18 +15556,18 @@ Source: RS Component / Phycomp</description>
 <junction x="238.76" y="129.54"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="VSS"/>
+<pinref part="U500" gate="G$1" pin="VSS"/>
 <wire x1="99.06" y1="124.46" x2="93.98" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="124.46" x2="93.98" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="GND27" gate="1" pin="GND"/>
-<pinref part="C30" gate="G$1" pin="2"/>
+<pinref part="C503" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="119.38" x2="83.82" y2="119.38" width="0.1524" layer="91"/>
 <junction x="93.98" y="119.38"/>
 <junction x="83.82" y="119.38"/>
-<pinref part="C40" gate="G$1" pin="2"/>
-<pinref part="C38" gate="G$1" pin="2"/>
+<pinref part="C502" gate="G$1" pin="2"/>
+<pinref part="C500" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="119.38" x2="68.58" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="C39" gate="G$1" pin="2"/>
+<pinref part="C501" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="119.38" x2="76.2" y2="119.38" width="0.1524" layer="91"/>
 <junction x="68.58" y="119.38"/>
 <wire x1="83.82" y1="119.38" x2="76.2" y2="119.38" width="0.1524" layer="91"/>
@@ -15615,7 +15633,7 @@ Source: RS Component / Phycomp</description>
 <junction x="190.5" y="147.32"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="DAT1"/>
+<pinref part="U500" gate="G$1" pin="DAT1"/>
 <wire x1="99.06" y1="152.4" x2="78.74" y2="152.4" width="0.1524" layer="91"/>
 <label x="73.66" y="152.4" size="1.778" layer="95"/>
 </segment>
@@ -15631,7 +15649,7 @@ Source: RS Component / Phycomp</description>
 <junction x="172.72" y="129.54"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="DAT2"/>
+<pinref part="U500" gate="G$1" pin="DAT2"/>
 <wire x1="99.06" y1="149.86" x2="78.74" y2="149.86" width="0.1524" layer="91"/>
 <label x="73.66" y="149.86" size="1.778" layer="95"/>
 </segment>
@@ -15647,7 +15665,7 @@ Source: RS Component / Phycomp</description>
 <junction x="167.64" y="132.08"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="DAT3"/>
+<pinref part="U500" gate="G$1" pin="DAT3"/>
 <wire x1="99.06" y1="147.32" x2="78.74" y2="147.32" width="0.1524" layer="91"/>
 <label x="73.66" y="147.32" size="1.778" layer="95"/>
 </segment>
@@ -15663,7 +15681,7 @@ Source: RS Component / Phycomp</description>
 <junction x="195.58" y="144.78"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="DAT0"/>
+<pinref part="U500" gate="G$1" pin="DAT0"/>
 <wire x1="99.06" y1="154.94" x2="78.74" y2="154.94" width="0.1524" layer="91"/>
 <label x="73.66" y="154.94" size="1.778" layer="95"/>
 </segment>
@@ -15679,7 +15697,7 @@ Source: RS Component / Phycomp</description>
 <junction x="162.56" y="134.62"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="CMD"/>
+<pinref part="U500" gate="G$1" pin="CMD"/>
 <wire x1="99.06" y1="165.1" x2="78.74" y2="165.1" width="0.1524" layer="91"/>
 <label x="73.66" y="165.1" size="1.778" layer="95"/>
 </segment>
@@ -15765,22 +15783,22 @@ Source: RS Component / Phycomp</description>
 <junction x="170.18" y="73.66"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="VDD"/>
+<pinref part="U500" gate="G$1" pin="VDD"/>
 <wire x1="99.06" y1="132.08" x2="93.98" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="U5" gate="G$1" pin="VDDF"/>
+<pinref part="U500" gate="G$1" pin="VDDF"/>
 <wire x1="93.98" y1="132.08" x2="76.2" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="129.54" x2="93.98" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="129.54" x2="93.98" y2="132.08" width="0.1524" layer="91"/>
 <junction x="93.98" y="132.08"/>
 <label x="71.12" y="132.08" size="1.778" layer="95"/>
-<pinref part="C40" gate="G$1" pin="1"/>
+<pinref part="C502" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="127" x2="76.2" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="132.08" x2="68.58" y2="132.08" width="0.1524" layer="91"/>
 <junction x="76.2" y="132.08"/>
-<pinref part="C38" gate="G$1" pin="1"/>
+<pinref part="C500" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="132.08" x2="60.96" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="132.08" x2="60.96" y2="127" width="0.1524" layer="91"/>
-<pinref part="C39" gate="G$1" pin="1"/>
+<pinref part="C501" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="127" x2="68.58" y2="132.08" width="0.1524" layer="91"/>
 <junction x="68.58" y="132.08"/>
 </segment>
@@ -15801,15 +15819,15 @@ Source: RS Component / Phycomp</description>
 <label x="160.02" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U5" gate="G$1" pin="CLK"/>
+<pinref part="U500" gate="G$1" pin="CLK"/>
 <wire x1="99.06" y1="160.02" x2="78.74" y2="160.02" width="0.1524" layer="91"/>
 <label x="73.66" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="U5" gate="G$1" pin="VDDI"/>
-<pinref part="C30" gate="G$1" pin="1"/>
+<pinref part="U500" gate="G$1" pin="VDDI"/>
+<pinref part="C503" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="127" x2="83.82" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
