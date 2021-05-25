@@ -1,0 +1,87 @@
+(kicad_sch (version 20210406) (generator eeschema)
+
+  (uuid 323e64ed-5f81-410d-9081-fb4424f9b116)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 34.29 54.61) (size 38.1 6.35) (fields_autoplaced)
+    (stroke (width 0.0006) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid f9c28ad1-2ab9-4e5d-813d-8cb6916684e8)
+    (property "Sheet name" "cpu" (id 0) (at 34.29 53.9743 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "cpu.kicad_sch" (id 1) (at 34.29 61.4687 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 34.29 69.85) (size 38.1 6.35) (fields_autoplaced)
+    (stroke (width 0.0006) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid a5b9e503-6aa4-424d-ab28-cc6f9f292730)
+    (property "Sheet name" "ethernet" (id 0) (at 34.29 69.2143 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "ethernet.kicad_sch" (id 1) (at 34.29 76.7087 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 34.29 85.09) (size 38.1 6.35) (fields_autoplaced)
+    (stroke (width 0.0006) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3c749ce7-d646-4de6-83a2-d6b8fc5e5df1)
+    (property "Sheet name" "io" (id 0) (at 34.29 84.4543 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "io.kicad_sch" (id 1) (at 34.29 91.9487 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 34.29 38.1) (size 38.1 6.35) (fields_autoplaced)
+    (stroke (width 0.0006) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid b6230b33-e760-4c12-ae5c-51d672e495dd)
+    (property "Sheet name" "power" (id 0) (at 34.29 37.4643 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "power.kicad_sch" (id 1) (at 34.29 44.9587 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd" (page "2"))
+    (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8" (page "3"))
+    (path "/a5b9e503-6aa4-424d-ab28-cc6f9f292730" (page "4"))
+    (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1" (page "5"))
+  )
+
+  (symbol_instances
+    (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/fb827e26-0259-40c1-80ce-a7e26974cfce"
+      (reference "U1") (unit 1) (value "SAM9X60D1G") (footprint "microchip:SAM9X60D1G")
+    )
+    (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/4dda6dca-cd62-409b-86f1-8ff4c95459a5"
+      (reference "U1") (unit 2) (value "SAM9X60D1G") (footprint "microchip:SAM9X60D1G")
+    )
+    (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/462627f0-c4b5-4abf-b2d9-912a89451c33"
+      (reference "U1") (unit 3) (value "SAM9X60D1G") (footprint "microchip:SAM9X60D1G")
+    )
+    (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/8eb8afcc-2124-4632-ae47-b0a42b209f79"
+      (reference "U1") (unit 4) (value "SAM9X60D1G") (footprint "microchip:SAM9X60D1G")
+    )
+    (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/7df73461-17ae-4f5d-93bf-3ebb54b0bcba"
+      (reference "U1") (unit 5) (value "SAM9X60D1G") (footprint "microchip:SAM9X60D1G")
+    )
+    (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/eaa0258c-bf22-4acf-8662-0b23334cc9ff"
+      (reference "U1") (unit 6) (value "SAM9X60D1G") (footprint "microchip:SAM9X60D1G")
+    )
+  )
+)
