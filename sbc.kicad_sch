@@ -265,6 +265,12 @@
     (path "/607413c6-2bfd-476d-8323-587df958351b/cc7726f7-3cae-410a-aa92-4393933441d8"
       (reference "J2") (unit 1) (value "USB_B_Micro") (footprint "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal")
     )
+    (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/e6d7034a-c863-4cc4-bbb2-7c2ed41798b2"
+      (reference "J3") (unit 1) (value "Conn_02x06_Odd_Even") (footprint "Connector_Samtec_HLE_THT:Samtec_HLE-106-02-xx-DV-TE_2x06_P2.54mm_Horizontal")
+    )
+    (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/de5b97be-fc01-435f-9977-b60beb696697"
+      (reference "J4") (unit 1) (value "Conn_02x18_Odd_Even") (footprint "Connector_Samtec_HLE_THT:Samtec_HLE-118-02-xx-DV-TE_2x18_P2.54mm_Horizontal")
+    )
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/6080810b-a589-4b58-bcfd-5200b8feae91"
       (reference "L201") (unit 1) (value "L_Small") (footprint "Inductor_SMD:L_Wuerth_MAPI-3010")
     )
