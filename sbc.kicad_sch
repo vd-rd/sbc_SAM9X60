@@ -232,6 +232,18 @@
     (path "/607413c6-2bfd-476d-8323-587df958351b/48c72626-3bc1-4cfe-a522-5b7b9b3eaabe"
       (reference "#PWR0120") (unit 1) (value "GND") (footprint "")
     )
+    (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/0c52e39e-faa2-48a5-8dc8-d81e3314c089"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/196f81dc-2281-490a-97af-c2fd3bce4d3c"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/4c7f4b09-c9ab-4848-820b-4a1d4a09b204"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/6c8017de-395b-4aea-814e-199ba414add1"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/bf1dde6f-166f-4d00-921e-054d48f3afa1"
       (reference "C1") (unit 1) (value "C_Small") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
