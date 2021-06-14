@@ -1,4 +1,4 @@
-(kicad_sch (version 20210406) (generator eeschema)
+(kicad_sch (version 20210606) (generator eeschema)
 
   (uuid 323e64ed-5f81-410d-9081-fb4424f9b116)
 
@@ -15,7 +15,7 @@
       (property "Footprint" "" (id 2) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "~" (id 3) (at 0 0 0)
+      (property "Datasheet" "~{}" (id 3) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_keywords" "mounting hole" (id 4) (at 0 0 0)
@@ -46,7 +46,7 @@
     (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965" (id 2) (at 46.99 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 46.99 171.45 0)
+    (property "Datasheet" "~{}" (id 3) (at 46.99 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -63,24 +63,7 @@
     (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965" (id 2) (at 46.99 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 46.99 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 76.2 171.45 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 74c26948-bb52-46d8-ba84-6acc20babc09)
-    (property "Reference" "H3" (id 0) (at 78.7401 170.6891 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (id 1) (at 78.7401 172.9878 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965" (id 2) (at 76.2 171.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 76.2 171.45 0)
+    (property "Datasheet" "~{}" (id 3) (at 46.99 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -97,7 +80,7 @@
     (property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965" (id 2) (at 76.2 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 76.2 185.42 0)
+    (property "Datasheet" "~{}" (id 3) (at 76.2 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -162,6 +145,18 @@
     )
   )
 
+  (sheet (at 34.29 110.49) (size 38.1 6.35) (fields_autoplaced)
+    (stroke (width 0.0006) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 35bd06c1-0c6a-430f-a482-7ff082ad168d)
+    (property "Sheet name" "wifi" (id 0) (at 34.29 109.8543 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "wifi.kicad_sch" (id 1) (at 34.29 117.3487 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd" (page "2"))
@@ -169,6 +164,7 @@
     (path "/a5b9e503-6aa4-424d-ab28-cc6f9f292730" (page "4"))
     (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1" (page "5"))
     (path "/607413c6-2bfd-476d-8323-587df958351b" (page "6"))
+    (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d" (page "7"))
   )
 
   (symbol_instances
@@ -246,6 +242,18 @@
     )
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/b28ff83d-c489-4b33-a252-ad4fff6ca723"
       (reference "#PWR0125") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/22eeb301-1400-4a01-b7c2-d31aa1811b47"
+      (reference "#PWR0126") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/5f6bd7ab-c7b4-44da-9611-09de537b9444"
+      (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/e3bc859f-b912-4a54-bde6-2e3ca04b6502"
+      (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/9febfaf0-0da1-4005-b21e-2a38412a9824"
+      (reference "AE1") (unit 1) (value "Antenna_Shield") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
     )
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/bf1dde6f-166f-4d00-921e-054d48f3afa1"
       (reference "C1") (unit 1) (value "C_Small") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -325,14 +333,14 @@
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/d787f3e4-7449-46e2-b7a3-dfd2799dc734"
       (reference "C224") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
+    (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/a6515340-8bd0-4798-b3f5-fa319febb434"
+      (reference "D1") (unit 1) (value "RF-W2S118TS-A41") (footprint "led:rgb-1204")
+    )
     (path "/ec1a5e36-a7b5-4b78-88c4-36130f030c5f"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5_DIN965")
     )
     (path "/e9b24953-f9bf-4a5b-ae8e-96e6c0d854b1"
       (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5_DIN965")
-    )
-    (path "/74c26948-bb52-46d8-ba84-6acc20babc09"
-      (reference "H3") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5_DIN965")
     )
     (path "/c4da88f5-edb6-414d-84e6-8e66a46f4af8"
       (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5_DIN965")
@@ -415,6 +423,24 @@
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/d3c5a618-c76c-4f7e-a509-73bfee0b43f9"
       (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/68322674-9703-4258-a1b1-79727b2ef9f4"
+      (reference "TP4") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/d60d3eb4-e3e4-46ce-bcdc-db716885a86a"
+      (reference "TP5") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/73a6cb39-50a0-4791-9c12-a34291787bcb"
+      (reference "TP6") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/236ce9b0-31e0-4d29-8516-9b0b9c32f7f2"
+      (reference "TP7") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/7876479f-b875-4fb3-a990-a04749dfbefc"
+      (reference "TP8") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/67d48098-a0af-4656-8856-8b70fae37bc8"
+      (reference "TP9") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/fb827e26-0259-40c1-80ce-a7e26974cfce"
       (reference "U1") (unit 1) (value "SAM9X60D1G") (footprint "microchip:SAM9X60D1G")
     )
@@ -432,6 +458,9 @@
     )
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/eaa0258c-bf22-4acf-8662-0b23334cc9ff"
       (reference "U1") (unit 6) (value "SAM9X60D1G") (footprint "microchip:SAM9X60D1G")
+    )
+    (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/3633f5e2-c5e0-486f-b124-353372c57f9a"
+      (reference "U2") (unit 1) (value "RTL8723BS") (footprint "sdio:lga44_12x12mm_P0.9")
     )
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/7d6aa543-8241-48e4-942e-ae27bd558328"
       (reference "U200") (unit 1) (value "MCP16501") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias")

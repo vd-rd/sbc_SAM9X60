@@ -471,6 +471,10 @@
     [
       "607413c6-2bfd-476d-8323-587df958351b",
       "sdcard"
+    ],
+    [
+      "35bd06c1-0c6a-430f-a482-7ff082ad168d",
+      "wifi"
     ]
   ],
   "text_variables": {}
