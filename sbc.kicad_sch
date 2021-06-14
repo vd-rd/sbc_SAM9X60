@@ -1,4 +1,4 @@
-(kicad_sch (version 20210606) (generator eeschema)
+(kicad_sch (version 20210406) (generator eeschema)
 
   (uuid 323e64ed-5f81-410d-9081-fb4424f9b116)
 
@@ -402,6 +402,18 @@
     (path "/607413c6-2bfd-476d-8323-587df958351b/a82378bc-4123-4027-9581-1b9534f7849a"
       (reference "RN1") (unit 4) (value "10k") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
     )
+    (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/6169f4bc-606e-4f82-afd3-a78ec4c91cc8"
+      (reference "RN2") (unit 1) (value "10k") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
+    )
+    (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/88ed24fa-eb26-4560-9e0e-e42c99df60c5"
+      (reference "RN2") (unit 2) (value "10k") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
+    )
+    (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/2a65c861-4f9d-47a3-a14a-ba77904cd27a"
+      (reference "RN2") (unit 3) (value "10k") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
+    )
+    (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/19f8964c-1ba0-489f-856f-a86d55b14e2e"
+      (reference "RN2") (unit 4) (value "10k") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
+    )
     (path "/607413c6-2bfd-476d-8323-587df958351b/8b2042ff-4b96-457f-9a5b-34fafe90bbaa"
       (reference "RN3") (unit 1) (value "10k") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
     )
@@ -413,6 +425,18 @@
     )
     (path "/607413c6-2bfd-476d-8323-587df958351b/ddbb3762-08c7-4ddb-ae8e-21edd4f680d3"
       (reference "RN3") (unit 4) (value "10k") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
+    )
+    (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/1e82e3b1-e5ea-43e0-9f10-a95ba314a313"
+      (reference "RN4") (unit 1) (value "10k") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
+    )
+    (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/92ae06a3-ca75-4186-8498-b57513a71f24"
+      (reference "RN4") (unit 2) (value "10k") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
+    )
+    (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/1129fca0-5e90-47e7-bf05-4123b86deebc"
+      (reference "RN4") (unit 3) (value "10k") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
+    )
+    (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/ce6a79dd-713b-4523-9bf1-f77af598aeef"
+      (reference "RN4") (unit 4) (value "10k") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
     )
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/8cb1cf6e-e426-4f4b-adab-30f01fe1b218"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
