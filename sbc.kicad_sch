@@ -1,4 +1,4 @@
-(kicad_sch (version 20210406) (generator eeschema)
+(kicad_sch (version 20210606) (generator eeschema)
 
   (uuid 323e64ed-5f81-410d-9081-fb4424f9b116)
 
@@ -252,6 +252,9 @@
     (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/e3bc859f-b912-4a54-bde6-2e3ca04b6502"
       (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
     )
+    (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/6d48f025-b179-458d-b2e9-1cda5f58d99d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/9febfaf0-0da1-4005-b21e-2a38412a9824"
       (reference "AE1") (unit 1) (value "Antenna_Shield") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
     )
@@ -333,6 +336,15 @@
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/d787f3e4-7449-46e2-b7a3-dfd2799dc734"
       (reference "C224") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
+    (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/54123b55-b547-45c7-8bdc-439a85bf34d9"
+      (reference "C800") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/536b5aff-5197-4c28-add3-f750bc4ec3a2"
+      (reference "C801") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/000c9baa-527e-4697-af7f-7e615828db19"
+      (reference "C810") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
     (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/a6515340-8bd0-4798-b3f5-fa319febb434"
       (reference "D1") (unit 1) (value "RF-W2S118TS-A41") (footprint "led:rgb-1204")
     )
@@ -390,6 +402,12 @@
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/323ae5a3-454c-4e4e-a720-32b82eb8b1a0"
       (reference "R219") (unit 1) (value "R_Small") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
+    (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/80ba2b37-0e86-42d1-bac2-b9eee51e594f"
+      (reference "R800") (unit 1) (value "0/dnp") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/5d3c00d7-e73f-488a-8884-28da654831ab"
+      (reference "R810") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
     (path "/607413c6-2bfd-476d-8323-587df958351b/30e6df24-886f-44e8-bc8d-760f5a386881"
       (reference "RN1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
     )
@@ -401,18 +419,6 @@
     )
     (path "/607413c6-2bfd-476d-8323-587df958351b/a82378bc-4123-4027-9581-1b9534f7849a"
       (reference "RN1") (unit 4) (value "10k") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
-    )
-    (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/6169f4bc-606e-4f82-afd3-a78ec4c91cc8"
-      (reference "RN2") (unit 1) (value "10k") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
-    )
-    (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/88ed24fa-eb26-4560-9e0e-e42c99df60c5"
-      (reference "RN2") (unit 2) (value "10k") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
-    )
-    (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/2a65c861-4f9d-47a3-a14a-ba77904cd27a"
-      (reference "RN2") (unit 3) (value "10k") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
-    )
-    (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/19f8964c-1ba0-489f-856f-a86d55b14e2e"
-      (reference "RN2") (unit 4) (value "10k") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
     )
     (path "/607413c6-2bfd-476d-8323-587df958351b/8b2042ff-4b96-457f-9a5b-34fafe90bbaa"
       (reference "RN3") (unit 1) (value "10k") (footprint "Resistor_SMD:R_Array_Convex_4x0402")
@@ -483,11 +489,11 @@
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/eaa0258c-bf22-4acf-8662-0b23334cc9ff"
       (reference "U1") (unit 6) (value "SAM9X60D1G") (footprint "microchip:SAM9X60D1G")
     )
-    (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/3633f5e2-c5e0-486f-b124-353372c57f9a"
-      (reference "U2") (unit 1) (value "RTL8723BS") (footprint "sdio:lga44_12x12mm_P0.9")
-    )
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/7d6aa543-8241-48e4-942e-ae27bd558328"
       (reference "U200") (unit 1) (value "MCP16501") (footprint "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias")
+    )
+    (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/3633f5e2-c5e0-486f-b124-353372c57f9a"
+      (reference "U800") (unit 1) (value "RTL8723BS") (footprint "sdio:lga44_12x12mm_P0.9")
     )
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/835dd779-adeb-422c-be1e-1bc082c36c9c"
       (reference "Y1") (unit 1) (value "24MHz") (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
