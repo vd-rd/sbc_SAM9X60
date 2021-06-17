@@ -70,3 +70,5 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+sbc-backups/*
