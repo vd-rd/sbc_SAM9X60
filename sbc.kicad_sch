@@ -1,4 +1,4 @@
-(kicad_sch (version 20210615) (generator eeschema)
+(kicad_sch (version 20210606) (generator eeschema)
 
   (uuid 323e64ed-5f81-410d-9081-fb4424f9b116)
 
@@ -252,7 +252,13 @@
     (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/e3bc859f-b912-4a54-bde6-2e3ca04b6502"
       (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
     )
+    (path "/607413c6-2bfd-476d-8323-587df958351b/989aab4f-f960-4e9c-9362-2d8607f52897"
+      (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
+    )
     (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/6d48f025-b179-458d-b2e9-1cda5f58d99d"
+      (reference "#PWR0130") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/607413c6-2bfd-476d-8323-587df958351b/e8a82e8f-68a4-48f7-aef7-99332ced2558"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/9febfaf0-0da1-4005-b21e-2a38412a9824"
@@ -407,6 +413,15 @@
     )
     (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/5d3c00d7-e73f-488a-8884-28da654831ab"
       (reference "R810") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/607413c6-2bfd-476d-8323-587df958351b/23da136c-956b-4cb5-a244-6ffe9492aeb8"
+      (reference "R?") (unit 1) (value "82k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/607413c6-2bfd-476d-8323-587df958351b/48617ce6-2464-4d57-9a3e-01b6016a2bb8"
+      (reference "R?") (unit 1) (value "47k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/607413c6-2bfd-476d-8323-587df958351b/4b0e3506-38f6-41f0-9e51-6522099ebc93"
+      (reference "R?") (unit 1) (value "47k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/607413c6-2bfd-476d-8323-587df958351b/30e6df24-886f-44e8-bc8d-760f5a386881"
       (reference "RN1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_Array_Convex_4x0402")

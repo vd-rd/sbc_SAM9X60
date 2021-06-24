@@ -1,4 +1,4 @@
-(kicad_sch (version 20210615) (generator eeschema)
+(kicad_sch (version 20210606) (generator eeschema)
 
   (uuid dc85e695-4f1e-4837-b64e-52a6f56a016f)
 
@@ -723,7 +723,7 @@
   (symbol (lib_id "power:GND") (at 83.82 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6d48f025-b179-458d-b2e9-1cda5f58d99d)
-    (property "Reference" "#PWR?" (id 0) (at 83.82 146.05 0)
+    (property "Reference" "#PWR0130" (id 0) (at 83.82 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 83.82 144.0244 0))
