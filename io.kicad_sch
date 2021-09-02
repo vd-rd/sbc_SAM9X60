@@ -1229,10 +1229,10 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_02x06_Odd_Even") (at 49.53 41.91 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid e6d7034a-c863-4cc4-bbb2-7c2ed41798b2)
-    (property "Reference" "J3" (id 0) (at 50.8 32.1268 0))
-    (property "Value" "Conn_02x06_Odd_Even" (id 1) (at 50.8 34.4255 0))
+    (property "Reference" "J3" (id 0) (at 41.91 34.6668 0))
+    (property "Value" "Conn_02x06_Odd_Even" (id 1) (at 64.77 34.4255 0))
     (property "Footprint" "Connector_Samtec_HLE_THT:Samtec_HLE-106-02-xx-DV-TE_2x06_P2.54mm_Horizontal" (id 2) (at 49.53 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
