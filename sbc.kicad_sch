@@ -559,7 +559,7 @@
       (reference "U1") (unit 6) (value "SAM9X60D1G") (footprint "microchip:SAM9X60D1G")
     )
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/e51a2e2c-8509-4cbf-818c-6f47cf15fd20"
-      (reference "U200") (unit 1) (value "ACT8945A") (footprint "Package_DFN_QFN:TQFN-40-1EP_5x5mm_P0.4mm_EP3.5x3.5mm_ThermalVias")
+      (reference "U200") (unit 1) (value "ACT8945AQJ305-T") (footprint "Package_DFN_QFN:TQFN-40-1EP_5x5mm_P0.4mm_EP3.5x3.5mm_ThermalVias")
     )
     (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/3633f5e2-c5e0-486f-b124-353372c57f9a"
       (reference "U800") (unit 1) (value "RTL8723BS") (footprint "sdio:lga44_12x12mm_P0.9")
