@@ -97,18 +97,6 @@
     )
   )
 
-  (sheet (at 34.29 69.85) (size 38.1 6.35) (fields_autoplaced)
-    (stroke (width 0.0006) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid a5b9e503-6aa4-424d-ab28-cc6f9f292730)
-    (property "Sheet name" "ethernet" (id 0) (at 34.29 69.2143 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "ethernet.kicad_sch" (id 1) (at 34.29 76.7087 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
   (sheet (at 34.29 85.09) (size 38.1 6.35) (fields_autoplaced)
     (stroke (width 0.0006) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -161,7 +149,6 @@
     (path "/" (page "1"))
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd" (page "2"))
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8" (page "3"))
-    (path "/a5b9e503-6aa4-424d-ab28-cc6f9f292730" (page "4"))
     (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1" (page "5"))
     (path "/607413c6-2bfd-476d-8323-587df958351b" (page "6"))
     (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d" (page "7"))
@@ -557,6 +544,9 @@
     )
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/eaa0258c-bf22-4acf-8662-0b23334cc9ff"
       (reference "U1") (unit 6) (value "SAM9X60D1G") (footprint "microchip:SAM9X60D1G")
+    )
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/fc526660-6663-4400-a154-f581e5ac288c"
+      (reference "U2") (unit 1) (value "AP9211") (footprint "diodes:DFN-2030-6")
     )
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/e51a2e2c-8509-4cbf-818c-6f47cf15fd20"
       (reference "U200") (unit 1) (value "ACT8945AQJ305-T") (footprint "Package_DFN_QFN:TQFN-40-1EP_5x5mm_P0.4mm_EP3.5x3.5mm_ThermalVias")

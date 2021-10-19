@@ -69,6 +69,7 @@
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -433,7 +434,7 @@
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
-      "version": 0
+      "version": 1
     },
     "net_format_name": "",
     "ngspice": {
@@ -464,10 +465,6 @@
     [
       "f9c28ad1-2ab9-4e5d-813d-8cb6916684e8",
       "cpu"
-    ],
-    [
-      "a5b9e503-6aa4-424d-ab28-cc6f9f292730",
-      "ethernet"
     ],
     [
       "3c749ce7-d646-4de6-83a2-d6b8fc5e5df1",

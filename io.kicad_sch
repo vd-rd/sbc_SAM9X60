@@ -1216,7 +1216,7 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "~{{RST}}" (shape bidirectional) (at 62.23 135.89 0) (fields_autoplaced)
+  (global_label "~{RST}" (shape bidirectional) (at 62.23 135.89 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 93d79d7b-838d-49b1-bc41-6b6b3f65a2a1)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 68.0902 135.8106 0)
