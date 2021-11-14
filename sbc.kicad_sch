@@ -87,62 +87,62 @@
     )
   )
 
-  (sheet (at 34.29 110.49) (size 38.1 6.35) (fields_autoplaced)
+  (sheet (at 38.1 127) (size 76.2 12.7)
     (stroke (width 0.0006) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 35bd06c1-0c6a-430f-a482-7ff082ad168d)
-    (property "Sheet name" "wifi" (id 0) (at 34.29 109.8543 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
+    (property "Sheet name" "wifi" (id 0) (at 39.37 138.43 0)
+      (effects (font (size 6 6)) (justify left bottom))
     )
-    (property "Sheet file" "wifi.kicad_sch" (id 1) (at 34.29 117.3487 0)
+    (property "Sheet file" "wifi.kicad_sch" (id 1) (at 76.2 137.16 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 34.29 85.09) (size 38.1 6.35) (fields_autoplaced)
+  (sheet (at 38.1 76.2) (size 76.2 12.7)
     (stroke (width 0.0006) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 3c749ce7-d646-4de6-83a2-d6b8fc5e5df1)
-    (property "Sheet name" "io" (id 0) (at 34.29 84.4543 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
+    (property "Sheet name" "io" (id 0) (at 39.37 87.63 0)
+      (effects (font (size 6 6)) (justify left bottom))
     )
-    (property "Sheet file" "io.kicad_sch" (id 1) (at 34.29 91.9487 0)
+    (property "Sheet file" "io.kicad_sch" (id 1) (at 76.2 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 34.29 97.79) (size 38.1 5.08) (fields_autoplaced)
+  (sheet (at 38.1 101.6) (size 76.2 12.7)
     (stroke (width 0.0006) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 607413c6-2bfd-476d-8323-587df958351b)
-    (property "Sheet name" "sdcard" (id 0) (at 34.29 97.1543 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
+    (property "Sheet name" "sdcard" (id 0) (at 39.37 111.76 0)
+      (effects (font (size 6 6)) (justify left bottom))
     )
-    (property "Sheet file" "sdcard.kicad_sch" (id 1) (at 34.29 103.3787 0)
+    (property "Sheet file" "sdcard.kicad_sch" (id 1) (at 76.2 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 34.29 38.1) (size 38.1 6.35) (fields_autoplaced)
+  (sheet (at 38.1 25.4) (size 76.2 12.7)
     (stroke (width 0.0006) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid b6230b33-e760-4c12-ae5c-51d672e495dd)
-    (property "Sheet name" "power" (id 0) (at 34.29 37.4643 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
+    (property "Sheet name" "power" (id 0) (at 39.37 35.56 0)
+      (effects (font (size 6 6)) (justify left bottom))
     )
-    (property "Sheet file" "power.kicad_sch" (id 1) (at 34.29 44.9587 0)
+    (property "Sheet file" "power.kicad_sch" (id 1) (at 76.2 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 34.29 54.61) (size 38.1 6.35) (fields_autoplaced)
+  (sheet (at 38.1 50.8) (size 76.2 12.7)
     (stroke (width 0.0006) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid f9c28ad1-2ab9-4e5d-813d-8cb6916684e8)
-    (property "Sheet name" "cpu" (id 0) (at 34.29 53.9743 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
+    (property "Sheet name" "cpu" (id 0) (at 39.37 60.96 0)
+      (effects (font (size 6 6)) (justify left bottom))
     )
-    (property "Sheet file" "cpu.kicad_sch" (id 1) (at 34.29 61.4687 0)
+    (property "Sheet file" "cpu.kicad_sch" (id 1) (at 76.2 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -292,6 +292,12 @@
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/0859d773-8140-4ed9-8bbd-74d0601b1bd1"
       (reference "#PWR0145") (unit 1) (value "GND") (footprint "")
     )
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/605334cb-4bbd-45e2-9a44-9efc19ee9b9d"
+      (reference "#PWR0146") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/6e9173ec-7935-4ea8-86bf-eaf7947356a4"
+      (reference "#PWR0147") (unit 1) (value "GND") (footprint "")
+    )
     (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/9febfaf0-0da1-4005-b21e-2a38412a9824"
       (reference "AE1") (unit 1) (value "Antenna_Shield") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
     )
@@ -355,14 +361,14 @@
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/fd3ac793-699f-4951-a83a-47f773777e9d"
       (reference "C20") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/f54a33f0-9f3c-4061-97ec-a34f45ced937"
-      (reference "C21") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/818e3ed4-83ee-444e-bb46-1b133ce7eba7"
+      (reference "C21") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/93a19f9d-fd86-44c7-a243-0e8795b12187"
-      (reference "C22") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/b48f9117-8bc9-42cd-ba60-21b63ba1cc59"
+      (reference "C22") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/98a883a0-0cf3-45e5-bf80-dd312f92171c"
-      (reference "C23") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/0225a28b-47ae-4f0c-b7ef-d95dce017f89"
+      (reference "C23") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/0dce55c6-082e-482f-ab0c-6613c659a13b"
       (reference "C24") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -391,6 +397,18 @@
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/03ff36eb-2c6b-4987-924c-3d87c12162ac"
       (reference "C32") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/73ba34e5-92fa-4383-8031-81f2b42843fe"
+      (reference "C33") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/b84941a8-c0d1-4cb2-920c-993039fda2f8"
+      (reference "C34") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/fa0814ce-b777-482b-aa40-754f3511b975"
+      (reference "C35") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/bea4264e-6daf-4c55-a5ee-b62e620f07cd"
+      (reference "C36") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/be61ce39-e7a3-4efc-b68b-f74412ffdf32"
       (reference "C201") (unit 1) (value "47nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -408,6 +426,9 @@
     )
     (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/a6515340-8bd0-4798-b3f5-fa319febb434"
       (reference "D1") (unit 1) (value "RF-W2S118TS-A41") (footprint "led:rgb-1204")
+    )
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/7a039880-2780-4518-9a8e-cd099718631b"
+      (reference "D2") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/ec1a5e36-a7b5-4b78-88c4-36130f030c5f"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5_DIN965")
@@ -436,14 +457,17 @@
     (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/38b3d786-373f-407f-a63d-085e669bec89"
       (reference "J8") (unit 1) (value "Conn_2Rows-45Pins_MountingPin") (footprint "Connector_FFC-FPC:TE_4-1734839-5_1x45-1MP_P0.5mm_Horizontal")
     )
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/5ddd1601-6f3c-4d22-9b5d-e0edd35521db"
+      (reference "L1") (unit 1) (value "2.2uH") (footprint "Inductor_SMD:L_Wuerth_MAPI-2510")
+    )
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/36e574a3-1858-422e-bb58-3897619a6081"
+      (reference "L2") (unit 1) (value "2.2uH") (footprint "Inductor_SMD:L_Wuerth_MAPI-2510")
+    )
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/6080810b-a589-4b58-bcfd-5200b8feae91"
-      (reference "L201") (unit 1) (value "2.2uH") (footprint "Inductor_SMD:L_Wuerth_MAPI-3010")
+      (reference "L201") (unit 1) (value "2.2uH") (footprint "Inductor_SMD:L_Wuerth_MAPI-2510")
     )
-    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/679c1708-508c-4562-a0b8-ad89eb5e8e10"
-      (reference "L202") (unit 1) (value "2.2uH") (footprint "Inductor_SMD:L_Wuerth_MAPI-3010")
-    )
-    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/d55bfd32-08c8-4f96-85d2-decb22b5a15c"
-      (reference "L203") (unit 1) (value "2.2uH") (footprint "Inductor_SMD:L_Wuerth_MAPI-3010")
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/13913808-7f89-4f70-9f31-49f47740bfc9"
+      (reference "Q1") (unit 1) (value "BSS84") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/ace5cb8b-6d1f-4f93-8cb0-c29ef02af8a6"
       (reference "R1") (unit 1) (value "20k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -474,6 +498,15 @@
     )
     (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/8bd036ca-286c-43b1-a3b6-a65cc609945a"
       (reference "R10") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/528153ed-be9e-4503-9180-605b67829f12"
+      (reference "R11") (unit 1) (value "330") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/97990feb-6595-4878-a9c5-505972f7c777"
+      (reference "R12") (unit 1) (value "R_Small") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/74c4724a-efd5-4602-b7f6-4bd0d30b194a"
+      (reference "R13") (unit 1) (value "2.7k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/80ba2b37-0e86-42d1-bac2-b9eee51e594f"
       (reference "R800") (unit 1) (value "0/dnp") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -568,7 +601,7 @@
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/eaa0258c-bf22-4acf-8662-0b23334cc9ff"
       (reference "U1") (unit 6) (value "SAM9X60D1G") (footprint "microchip:SAM9X60D1G")
     )
-    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/fc526660-6663-4400-a154-f581e5ac288c"
+    (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/967a3098-3cff-4c94-98ca-53ec78a7a1a0"
       (reference "U2") (unit 1) (value "AP9211") (footprint "diodes:DFN-2030-6")
     )
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/e51a2e2c-8509-4cbf-818c-6f47cf15fd20"
