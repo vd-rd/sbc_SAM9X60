@@ -2272,7 +2272,7 @@
 
   (footprint "Button_Switch_SMD:SW_SPST_EVQP7C" (layer "F.Cu")
     (tedit 5A02FC95) (tstamp 8d213ec5-a321-40c6-af67-f8e387814737)
-    (at 116.5 98.4)
+    (at 116 98.3)
     (descr "Light Touch Switch")
     (property "Sheetfile" "io.kicad_sch")
     (property "Sheetname" "io")
