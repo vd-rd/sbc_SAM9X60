@@ -33,9 +33,9 @@
         "other_text_thickness": 0.127,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.5,
+          "height": 0.8,
+          "width": 0.8
         },
         "silk_line_width": 0.127,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.25
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -394,6 +394,36 @@
         "pcb_color": "rgb(0, 0, 0)",
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.1016,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 6.0,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.2,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.154,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "rmii-lines",
+        "nets": [
+          "RMII-IRQ",
+          "RMII-MDC",
+          "RMII-MDIO",
+          "RMII-RX0",
+          "RMII-RX1",
+          "RMII-RXDV",
+          "RMII-RXER",
+          "RMII-TX0",
+          "RMII-TX1",
+          "RMII-TXCK",
+          "RMII-TXEN"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 0, 0)",
+        "track_width": 0.127,
         "via_diameter": 0.45,
         "via_drill": 0.2,
         "wire_width": 6.0
