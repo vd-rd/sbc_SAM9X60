@@ -1,4 +1,4 @@
-(kicad_sch (version 20210621) (generator eeschema)
+(kicad_sch (version 20211123) (generator eeschema)
 
   (uuid 323e64ed-5f81-410d-9081-fb4424f9b116)
 
@@ -28,7 +28,8 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "MountingHole_0_1"
-        (circle (center 0 0) (radius 1.27)           (stroke (width 1.27) (type default) (color 0 0 0 0))
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 1.27) (type default) (color 0 0 0 0))
           (fill (type none))
         )
       )
@@ -424,6 +425,9 @@
     (path "/35bd06c1-0c6a-430f-a482-7ff082ad168d/000c9baa-527e-4697-af7f-7e615828db19"
       (reference "C810") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
+    (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/45e8b6dc-a2dd-4058-a06a-564427923ef4"
+      (reference "C?") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
     (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/a6515340-8bd0-4798-b3f5-fa319febb434"
       (reference "D1") (unit 1) (value "RF-W2S118TS-A41") (footprint "led:rgb-1204")
     )
@@ -478,9 +482,6 @@
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/71600a2d-f1e5-410c-8048-c03a9bebdbf6"
       (reference "R3") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/b0b061a9-59cc-4d32-8037-5dbb8c2e9e60"
-      (reference "R4") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
     (path "/f9c28ad1-2ab9-4e5d-813d-8cb6916684e8/26462448-bf1c-48e2-8a09-d983e9732978"
       (reference "R5") (unit 1) (value "5.62k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
@@ -503,7 +504,7 @@
       (reference "R11") (unit 1) (value "330") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/97990feb-6595-4878-a9c5-505972f7c777"
-      (reference "R12") (unit 1) (value "R_Small") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R12") (unit 1) (value "47k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/74c4724a-efd5-4602-b7f6-4bd0d30b194a"
       (reference "R13") (unit 1) (value "2.7k") (footprint "Resistor_SMD:R_0402_1005Metric")
