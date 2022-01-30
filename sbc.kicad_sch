@@ -209,7 +209,7 @@
     (path "/b6230b33-e760-4c12-ae5c-51d672e495dd/edd78b31-c17e-492f-97bc-a224152b9f5e"
       (reference "#PWR0117") (unit 1) (value "GND") (footprint "")
     )
-    (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/1239aa02-b79d-49e2-96d6-a0576ac87b56"
+    (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/34a1a4d3-2099-43c7-995f-596d17852a36"
       (reference "#PWR0118") (unit 1) (value "GND") (footprint "")
     )
     (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/18afd9f9-434e-4f3e-8979-a7a17e4703ad"
@@ -520,6 +520,9 @@
     )
     (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/de5b97be-fc01-435f-9977-b60beb696697"
       (reference "J4") (unit 1) (value "Conn_02x18_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x18_P2.54mm_Vertical")
+    )
+    (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/55cc9811-29f5-400a-a565-5c4507a7210d"
+      (reference "J5") (unit 1) (value "Conn_02x22_Odd_Even") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x22_P1.27mm_Vertical")
     )
     (path "/3c749ce7-d646-4de6-83a2-d6b8fc5e5df1/7237050e-4c1d-495e-b55d-70e29219ddc5"
       (reference "J6") (unit 1) (value "Conn_01x08") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x04_P1.27mm_Vertical")
