@@ -5,6 +5,165 @@
 	(uuid "a23108c0-f7ef-42c2-a486-295616e063aa")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:L_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0.762 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "L_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_Small_0_1"
+				(arc
+					(start 0 -2.032)
+					(mid 0.5058 -1.524)
+					(end 0 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.016)
+					(mid 0.5058 -0.508)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.5058 0.508)
+					(end 0 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.016)
+					(mid 0.5058 1.524)
+					(end 0 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.508)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "microchip:MCP16501"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -519,18 +678,338 @@
 			)
 		)
 	)
+	(junction
+		(at 173.99 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c89a45d-22e2-4200-8c4c-c807113d334d")
+	)
+	(junction
+		(at 173.99 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7955e91b-5999-4bdb-a8d3-042ff7a6d745")
+	)
+	(junction
+		(at 175.26 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6f45a18-cc94-47a3-9875-c05087e11d0d")
+	)
+	(wire
+		(pts
+			(xy 173.99 74.93) (xy 195.58 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "033a8d78-eba3-4515-bc53-07cfce1c0be1")
+	)
+	(wire
+		(pts
+			(xy 173.99 77.47) (xy 173.99 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a21f777-836e-4a47-a8ae-2dbaccc98d25")
+	)
+	(wire
+		(pts
+			(xy 160.02 77.47) (xy 173.99 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d781482-a02b-46a4-bf4a-f88525e9736f")
+	)
+	(wire
+		(pts
+			(xy 160.02 72.39) (xy 195.58 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e6eeea4-1b2e-4c0f-b538-80b1c1194709")
+	)
+	(wire
+		(pts
+			(xy 160.02 87.63) (xy 166.37 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2298402b-e9af-46d0-9999-1109022c50b8")
+	)
+	(wire
+		(pts
+			(xy 173.99 90.17) (xy 173.99 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2983bce4-1e45-464b-a22d-1d6687b21513")
+	)
+	(wire
+		(pts
+			(xy 175.26 100.33) (xy 171.45 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45529ff4-29c0-4e68-8036-f32875b526b3")
+	)
+	(wire
+		(pts
+			(xy 173.99 87.63) (xy 171.45 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f8ea20e-a1ad-4d15-879a-e74e0ad47359")
+	)
+	(wire
+		(pts
+			(xy 160.02 74.93) (xy 166.37 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cb556ad-d016-48d9-bd36-62f9902b86cd")
+	)
+	(wire
+		(pts
+			(xy 160.02 102.87) (xy 175.26 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f96fed9-4878-43c9-ac70-2c072ac12960")
+	)
+	(wire
+		(pts
+			(xy 173.99 87.63) (xy 195.58 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71ca8e86-b787-4e95-b97f-4a904b2e66ae")
+	)
+	(wire
+		(pts
+			(xy 160.02 100.33) (xy 166.37 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8993e53b-55fb-44b9-8340-740af001e623")
+	)
+	(wire
+		(pts
+			(xy 160.02 90.17) (xy 173.99 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "912dc6af-d36c-46d0-a044-e6168f30a86c")
+	)
+	(wire
+		(pts
+			(xy 173.99 74.93) (xy 171.45 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a2387f6-54a4-45c2-9130-25fbdfe2e47b")
+	)
+	(wire
+		(pts
+			(xy 175.26 100.33) (xy 195.58 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b26ccac5-4db4-415f-ac67-756f1d630a80")
+	)
+	(wire
+		(pts
+			(xy 175.26 102.87) (xy 175.26 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3bb6c3b-b0d8-4976-bd53-ebb84632551c")
+	)
+	(global_label "+3V3"
+		(shape output)
+		(at 195.58 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "490a011c-da24-4d6d-af13-9483a1add058")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.6452 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD_CORE"
+		(shape output)
+		(at 195.58 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "491598ae-65c4-499c-9b09-a5dfccede846")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.1809 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VDD_RAM"
+		(shape output)
+		(at 195.58 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb23e699-cc31-4fd8-b366-d34ae2c03234")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.9714 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 168.91 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "191ab081-2d97-49a2-8b89-eaae238fd982")
+		(property "Reference" "L2"
+			(at 162.56 86.614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uH"
+			(at 174.752 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Wuerth_MAPI-2510"
+			(at 168.91 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor, small symbol"
+			(at 168.91 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" "2.2A"
+			(at 168.91 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1dc489ec-8e2d-4a48-abd9-180fc1e203b7")
+		)
+		(pin "1"
+			(uuid "28b90665-c7d7-4913-9bb7-4980ec4fb14d")
+		)
+		(instances
+			(project "module-sip"
+				(path "/c08617c0-1caf-4729-8077-729eb2589580/7a4ab0a7-d6b3-4c06-857d-396f9ca2b203"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "microchip:MCP16501")
-		(at 153.67 95.25 0)
+		(at 135.89 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5462ef79-8a66-4c5e-90f1-f8b166aa6206")
+		(uuid "691f009a-6354-43bd-9997-fb1273397b12")
 		(property "Reference" "U2"
-			(at 154.305 58.42 0)
+			(at 136.525 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -538,7 +1017,7 @@
 			)
 		)
 		(property "Value" "MCP16501"
-			(at 154.305 60.96 0)
+			(at 136.525 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -546,7 +1025,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
-			(at 152.4 59.69 0)
+			(at 134.62 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -555,7 +1034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 59.69 0)
+			(at 134.62 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -564,7 +1043,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 95.25 0)
+			(at 135.89 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -572,85 +1051,237 @@
 				(hide yes)
 			)
 		)
-		(pin "8"
-			(uuid "f919b636-cf55-40b8-b2d0-4f5981755e33")
-		)
-		(pin "25"
-			(uuid "04b0f476-fc48-4f93-b11f-7fa7a078a6c6")
-		)
-		(pin "23"
-			(uuid "f8225e3d-0876-4823-9079-536ebaba4aba")
-		)
-		(pin "7"
-			(uuid "5ec06112-5a6e-4dff-9a6f-d83ec65403ec")
-		)
-		(pin "4"
-			(uuid "b36a0872-0d03-4c22-b4af-5e68ea085695")
-		)
-		(pin "19"
-			(uuid "1350060d-c7bf-4256-b512-0d60a5f4e2b9")
-		)
-		(pin "20"
-			(uuid "19f7b118-bdaf-41fd-9704-b097731879de")
+		(pin "24"
+			(uuid "c1a46e5d-758b-4a8e-a382-d7c929e0e2d1")
 		)
 		(pin "9"
-			(uuid "0e97300c-88f0-478e-9838-c3dbfe7af99e")
-		)
-		(pin "2"
-			(uuid "dda7fb8b-f782-4e1a-9016-1c4d690efe25")
-		)
-		(pin "6"
-			(uuid "d1619d09-0b54-4f20-a980-0077c3855670")
+			(uuid "3a5b9efa-c2ed-41f9-ab0b-c9b1f112bfed")
 		)
 		(pin "5"
-			(uuid "528d47be-6b5f-4526-926d-8fcc1d4909e6")
+			(uuid "617aa6b5-700c-4813-ab48-04ccdc7d7c25")
 		)
-		(pin "3"
-			(uuid "1bd275aa-fe71-4762-94a7-4f1ea66aa716")
-		)
-		(pin "16"
-			(uuid "5fb59054-2816-421f-aa8a-0107aa970228")
-		)
-		(pin "15"
-			(uuid "c0245ca7-9a62-4e07-8a71-5c033455cea1")
-		)
-		(pin "13"
-			(uuid "3323f17a-4fcc-40f5-8aad-65af5c3414d1")
-		)
-		(pin "10"
-			(uuid "4e2f5772-f118-455a-af68-915ebe795c36")
-		)
-		(pin "1"
-			(uuid "e53af199-c6c0-49b2-b3b8-16c1673486b9")
-		)
-		(pin "18"
-			(uuid "cc36c8d7-7f9d-463d-8256-7b358e9dd029")
+		(pin "8"
+			(uuid "3650799b-fd5c-454c-ac40-6f9577522794")
 		)
 		(pin "11"
-			(uuid "3d04c3db-045e-404f-b1d1-07d41bc5f4ef")
+			(uuid "df70faf3-9e71-464f-9b38-adef7eb5cc57")
 		)
-		(pin "24"
-			(uuid "4e646794-109d-4470-91ac-0fb6cbbce143")
+		(pin "4"
+			(uuid "493fa466-8a99-43b7-be93-c7c8aafd4cf5")
 		)
-		(pin "17"
-			(uuid "e2a26924-6b50-4dbc-b1ad-0ca82b3a77de")
+		(pin "25"
+			(uuid "61673344-a218-4abb-83a4-d5ea513c7725")
 		)
-		(pin "12"
-			(uuid "5934142c-5f52-4ae2-aa07-e13d5fe84666")
+		(pin "13"
+			(uuid "666e93dd-29fb-4485-83b6-512d9c8ed6b3")
+		)
+		(pin "7"
+			(uuid "dd92acd9-ffe1-4a68-9915-42eef8d876de")
+		)
+		(pin "6"
+			(uuid "9469434d-b45f-40aa-ac90-8ade01326658")
+		)
+		(pin "15"
+			(uuid "b958c62f-ec06-4e5a-8859-ea74d6834f58")
 		)
 		(pin "14"
-			(uuid "36740176-68a2-41bf-a01b-0fa94d317cd4")
+			(uuid "04e9f694-73df-40a1-8776-623bc6170750")
+		)
+		(pin "16"
+			(uuid "a79a3601-0d62-447b-acad-93c1d2357808")
+		)
+		(pin "10"
+			(uuid "57410a9c-f9b5-425d-ba4e-6d8e55387851")
+		)
+		(pin "1"
+			(uuid "cf4c4bb9-02d0-4096-bccb-a85386f5a76b")
+		)
+		(pin "23"
+			(uuid "fdb39acc-18a1-48b4-8e5b-ebef93a94304")
+		)
+		(pin "18"
+			(uuid "ace8cf3a-1b54-4688-9658-d97d49e73a2c")
+		)
+		(pin "2"
+			(uuid "2e1706eb-76e3-4aac-a312-4ce4b4132ebf")
+		)
+		(pin "17"
+			(uuid "5ab9332e-4b6d-46a5-ac44-7e69b11b2527")
+		)
+		(pin "20"
+			(uuid "4d4214fc-89ec-40b1-a347-0cdeee9bf806")
+		)
+		(pin "3"
+			(uuid "c88516ff-d63c-4686-9d3f-be2ca5ab3e83")
+		)
+		(pin "19"
+			(uuid "4987295d-060a-4960-94b1-833d915b7d84")
+		)
+		(pin "12"
+			(uuid "2daf43f9-f610-4a54-bc6e-4dabf4cdc7dd")
 		)
 		(pin "22"
-			(uuid "e145738c-a503-49ca-beab-c4cbcea5df67")
+			(uuid "cd21fdee-c932-4019-ba3f-2d83e0b72ebc")
 		)
 		(pin "21"
-			(uuid "36ff4237-b674-4bab-980a-b3e2d26f7362")
+			(uuid "07b0f2cb-2e5e-4ec1-afec-413f9a78c9db")
 		)
 		(instances
 			(project "module-sip"
 				(path "/c08617c0-1caf-4729-8077-729eb2589580/7a4ab0a7-d6b3-4c06-857d-396f9ca2b203"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 168.91 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a269de1f-2950-40db-850e-d7108d3cb42b")
+		(property "Reference" "L3"
+			(at 162.56 99.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uH"
+			(at 174.752 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Wuerth_MAPI-2510"
+			(at 168.91 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor, small symbol"
+			(at 168.91 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" "2.2A"
+			(at 168.91 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5f6fa30f-d25e-44fd-abad-d2ef8c4bbdd2")
+		)
+		(pin "1"
+			(uuid "33663d27-5e42-49a9-82de-918c794cc751")
+		)
+		(instances
+			(project "module-sip"
+				(path "/c08617c0-1caf-4729-8077-729eb2589580/7a4ab0a7-d6b3-4c06-857d-396f9ca2b203"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 168.91 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc61e832-e72e-42c6-b503-06ae4567ad23")
+		(property "Reference" "L1"
+			(at 162.56 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uH"
+			(at 174.752 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Wuerth_MAPI-2510"
+			(at 168.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor, small symbol"
+			(at 168.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Isat" "2.2A"
+			(at 168.91 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "85e57873-9165-4b96-912e-cdc37e49df1b")
+		)
+		(pin "1"
+			(uuid "3005696b-14a4-473b-b548-290e4a75dd68")
+		)
+		(instances
+			(project "module-sip"
+				(path "/c08617c0-1caf-4729-8077-729eb2589580/7a4ab0a7-d6b3-4c06-857d-396f9ca2b203"
+					(reference "L1")
 					(unit 1)
 				)
 			)

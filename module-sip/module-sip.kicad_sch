@@ -44,6 +44,44 @@
 		)
 	)
 	(sheet
+		(at 31.75 116.84)
+		(size 109.22 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "50225c6b-353e-4e64-ba10-e41e83bdc77c")
+		(property "Sheetname" "networking"
+			(at 31.75 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "networking.kicad_sch"
+			(at 31.75 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "module-sip"
+				(path "/c08617c0-1caf-4729-8077-729eb2589580"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 29.21 77.47)
 		(size 100.33 15.24)
 		(fields_autoplaced yes)
